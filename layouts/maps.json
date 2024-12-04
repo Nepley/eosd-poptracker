@@ -1,0 +1,16 @@
+{
+    "map_layout": {
+        "type": "tabbed",
+        "tabs": [
+            {
+                "title": "eosd",
+                "content": {
+                    "type": "map",
+                    "maps": [
+                        "eosd"
+                    ]
+                }
+            }
+        ]
+    }
+}

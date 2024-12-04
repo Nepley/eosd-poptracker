@@ -1,0 +1,21 @@
+{
+    "settings_layout": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0, 0",
+        "max_width": "100%",
+        "content": [
+            {
+                "type": "itemgrid",
+                "item_size": 16,
+                "badge_font_size": 10,
+                "item_margin": "1, 2",
+                "rows": [
+                    ["lives_3_4" , "lives_5_6"],
+                    ["bombs_3_4" , "bombs_5_6"],
+                    ["lower_difficulty_3_4" , "lower_difficulty_5_6"]
+                ]
+            }
+        ]
+    }
+}

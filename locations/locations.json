@@ -1,0 +1,357 @@
+[
+    {
+        "name": "eosd",
+        "chest_unopened_img": "/images/ui/life.png",
+        "chest_opened_img": "/images/ui/bomb.png",
+        "children": [
+            {
+                "name": "[Reimu] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 170,
+                        "y": 43,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1", "reimu_b, stage_1"]
+                    },
+                    {
+                        "name": "[Reimu] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1", "reimu_b, stage_1"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1", "reimu_b, stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 170,
+                        "y": 67,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2", "reimu_b, stage_2"]
+                    },
+                    {
+                        "name": "[Reimu] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2", "reimu_b, stage_2"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2", "reimu_b, stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 170,
+                        "y": 93,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, $canStage34", "reimu_b, stage_3, $canStage34"]
+                    },
+                    {
+                        "name": "[Reimu] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, $canStage34", "reimu_b, stage_3, $canStage34"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, $canStage34", "reimu_b, stage_3, $canStage34"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 170,
+                        "y": 117,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, $canStage34", "reimu_b, stage_4, $canStage34"]
+                    },
+                    {
+                        "name": "[Reimu] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, $canStage34", "reimu_b, stage_4, $canStage34"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, $canStage34", "reimu_b, stage_4, $canStage34"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 170,
+                        "y": 143,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, $canStage56", "reimu_b, stage_5, $canStage56"]
+                    },
+                    {
+                        "name": "[Reimu] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, $canStage56", "reimu_b, stage_5, $canStage56"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, $canStage56", "reimu_b, stage_5, $canStage56"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 170,
+                        "y": 167,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, $canStage56", "reimu_b, stage_6, $canStage56"]
+                    },
+                    {
+                        "name": "[Reimu] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, $canStage56", "reimu_b, stage_6, $canStage56"]
+                    },
+                    {
+                        "name": "[Reimu] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, $canStage56", "reimu_b, stage_6, $canStage56"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 300,
+                        "y": 43,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1", "marisa_b, stage_1"]
+                    },
+                    {
+                        "name": "[Marisa] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1", "marisa_b, stage_1"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1", "marisa_b, stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 300,
+                        "y": 67,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2", "marisa_b, stage_2"]
+                    },
+                    {
+                        "name": "[Marisa] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2", "marisa_b, stage_2"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2", "marisa_b, stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 300,
+                        "y": 93,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, $canStage34", "marisa_b, stage_3, $canStage34"]
+                    },
+                    {
+                        "name": "[Marisa] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, $canStage34", "marisa_b, stage_3, $canStage34"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, $canStage34", "marisa_b, stage_3, $canStage34"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 300,
+                        "y": 117,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, $canStage34", "marisa_b, stage_4, $canStage34"]
+                    },
+                    {
+                        "name": "[Marisa] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, $canStage34", "marisa_b, stage_4, $canStage34"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, $canStage34", "marisa_b, stage_4, $canStage34"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 300,
+                        "y": 143,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, $canStage56", "marisa_b, stage_5, $canStage56"]
+                    },
+                    {
+                        "name": "[Marisa] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, $canStage56", "marisa_b, stage_5, $canStage56"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, $canStage56", "marisa_b, stage_5, $canStage56"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 300,
+                        "y": 167,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, $canStage56", "marisa_b, stage_6, $canStage56"]
+                    },
+                    {
+                        "name": "[Marisa] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, $canStage56", "marisa_b, stage_6, $canStage56"]
+                    },
+                    {
+                        "name": "[Marisa] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, $canStage56", "marisa_b, stage_6, $canStage56"]
+                    }
+                ]
+            }
+        ]
+    }
+]

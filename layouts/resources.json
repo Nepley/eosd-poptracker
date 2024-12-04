@@ -1,0 +1,41 @@
+{
+    "resources_layout": {
+        "type": "array",
+        "orientation": "horizontal",
+        "margin": "0, 0",
+        "max_width": "100%",
+        "content": [
+            {
+                "type": "array",
+                "orientation": "vertical",
+                "margin": "0, 0",
+                "content": [
+                    {
+                        "type": "itemgrid",
+                        "item_size": "4, 4",
+                        "item_margin": "2, 2",
+                        "h_alignment": "left",
+                        "item_h_alignment": "center",
+                        "rows": [
+                            [
+                                "stage_unlocked",
+                                "lower_difficulty"
+                            ],
+                            [
+                                "lives",
+                                "bombs",
+                                "power_points"
+                            ],
+                            [
+                                "reimu_a",
+                                "reimu_b",
+                                "marisa_a",
+                                "marisa_b"
+                            ]
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

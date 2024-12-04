@@ -1,0 +1,229 @@
+[
+    {
+        "name": "Stages",
+        "type": "progressive",
+        "codes": "stage_unlocked",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Numbers/1.png",
+                    "codes": "stage_1",
+                    "inherit_codes": false,
+                    "name": "1 Stage" 
+                },
+                {
+                    "img": "/images/items/Numbers/2.png",
+                    "codes": "stage_2",
+                    "inherit_codes": true,
+                    "name": "2 Stages" 
+                },
+                {
+                    "img": "/images/items/Numbers/3.png",
+                    "codes": "stage_3",
+                    "inherit_codes": true,
+                    "name": "3 Stages" 
+                },
+                {
+                    "img": "/images/items/Numbers/4.png",
+                    "codes": "stage_4",
+                    "inherit_codes": true,
+                    "name": "4 Stages" 
+                },
+                {
+                    "img": "/images/items/Numbers/5.png",
+                    "codes": "stage_5",
+                    "inherit_codes": true,
+                    "name": "5 Stages" 
+                },
+                {
+                    "img": "/images/items/Numbers/6.png",
+                    "codes": "stage_6",
+                    "inherit_codes": true,
+                    "name": "6 Stages" 
+                }
+        ]
+    },
+    {
+        "name": "Difficulties",
+        "type": "progressive",
+        "codes": "lower_difficulty",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Difficulties/lunatic.png",
+                    "codes": "lunatic",
+                    "inherit_codes": false,
+                    "name": "Lunatic" 
+                },
+                {
+                    "img": "/images/items/Difficulties/hard.png",
+                    "codes": "hard",
+                    "inherit_codes": false,
+                    "name": "Hard" 
+                },
+                {
+                    "img": "/images/items/Difficulties/normal.png",
+                    "codes": "normal",
+                    "inherit_codes": false,
+                    "name": "Normal" 
+                },
+                {
+                    "img": "/images/items/Difficulties/easy.png",
+                    "codes": "easy",
+                    "inherit_codes": false,
+                    "name": "Easy" 
+                }
+        ]
+    },
+    {
+        "name": "Lives",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/life_up.png",
+        "codes": "lives"
+    },
+    {
+        "name": "Bombs",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/bomb_up.png",
+        "codes": "bombs"
+    },
+    {
+        "name": "Power Points",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 128,
+        "img": "/images/items/power_point.png",
+        "codes": "power_points"
+    },
+    {
+        "name": "Reimu - Type A",
+        "type": "toggle",
+        "img": "/images/items/reimu_a.png",
+        "codes": "reimu_a"
+    },
+    {
+        "name": "Reimu - Type B",
+        "type": "toggle",
+        "img": "/images/items/reimu_b.png",
+        "codes": "reimu_b"
+    },
+    {
+        "name": "Marisa - Type A",
+        "type": "toggle",
+        "img": "/images/items/marisa_a.png",
+        "codes": "marisa_a"
+    },
+    {
+        "name": "Marisa - Type B",
+        "type": "toggle",
+        "img": "/images/items/marisa_b.png",
+        "codes": "marisa_b"
+    },
+    
+    
+    
+    {
+        "name": "Lives for Stages 3 and 4",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/life_up.png",
+        "codes": "lives_3_4"
+    },
+    {
+        "name": "Bombs for Stages 3 and 4",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/bomb_up.png",
+        "codes": "bombs_3_4"
+    },
+    {
+        "name": "Difficulties for Stages 3 and 4",
+        "type": "progressive",
+        "codes": "lower_difficulty_3_4",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Difficulties/lunatic.png",
+                    "codes": "lunatic",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 3 and 4" 
+                },
+                {
+                    "img": "/images/items/Difficulties/hard.png",
+                    "codes": "hard",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 3 and 4" 
+                },
+                {
+                    "img": "/images/items/Difficulties/normal.png",
+                    "codes": "normal",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 3 and 4" 
+                },
+                {
+                    "img": "/images/items/Difficulties/easy.png",
+                    "codes": "easy",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 3 and 4" 
+                }
+        ]
+    },
+    {
+        "name": "Lives for Stages 5 and 6",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/life_up.png",
+        "codes": "lives_5_6"
+    },
+    {
+        "name": "Bombs for Stages 5 and 6",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/bomb_up.png",
+        "codes": "bombs_5_6"
+    },
+    {
+        "name": "Difficulties for Stages 5 and 6",
+        "type": "progressive",
+        "codes": "lower_difficulty_5_6",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Difficulties/lunatic.png",
+                    "codes": "lunatic",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 5 and 6" 
+                },
+                {
+                    "img": "/images/items/Difficulties/hard.png",
+                    "codes": "hard",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 5 and 6" 
+                },
+                {
+                    "img": "/images/items/Difficulties/normal.png",
+                    "codes": "normal",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 5 and 6" 
+                },
+                {
+                    "img": "/images/items/Difficulties/easy.png",
+                    "codes": "easy",
+                    "inherit_codes": false,
+                    "name": "Difficulty for Stages 5 and 6" 
+                }
+        ]
+    }
+]
