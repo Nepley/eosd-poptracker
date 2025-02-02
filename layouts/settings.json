@@ -11,9 +11,10 @@
                 "badge_font_size": 10,
                 "item_margin": "1, 2",
                 "rows": [
-                    ["lives_3_4" , "lives_5_6"],
-                    ["bombs_3_4" , "bombs_5_6"],
-                    ["lower_difficulty_3_4" , "lower_difficulty_5_6"]
+                    ["shot_type_check" , "difficulty_check", "extra_stage_included"],
+                    ["lives_3_4" , "lives_5_6", "lives_extra"],
+                    ["bombs_3_4" , "bombs_5_6", "bombs_extra"],
+                    ["lower_difficulty_3_4" , "lower_difficulty_5_6", ""]
                 ]
             }
         ]

@@ -50,6 +50,11 @@ function onClear(slotData)
     Tracker:FindObjectForCode("lives_5_6").AcquiredCount = slotData['number_life_end']
     Tracker:FindObjectForCode("bombs_5_6").AcquiredCount = slotData['number_bomb_end']
     Tracker:FindObjectForCode("lower_difficulty_5_6").CurrentStage = slotData['difficulty_end']
+    Tracker:FindObjectForCode("lives_extra").AcquiredCount = slotData['number_life_extra']
+    Tracker:FindObjectForCode("bombs_extra").AcquiredCount = slotData['number_bomb_extra']
+    Tracker:FindObjectForCode("extra_stage_included").CurrentStage = slotData['extra_stage']
+    Tracker:FindObjectForCode("shot_type_check").Active = slotData['shot_type']
+    Tracker:FindObjectForCode("difficulty_check").Active = slotData['difficulty_check']
 end
 
 function onItem(index, itemId, itemName, playerNumber)
@@ -57,9 +62,12 @@ function onItem(index, itemId, itemName, playerNumber)
         return
     end
 
-    print(itemId)
-
     CURRENT_INDEX = index
+
+    --- Special case for the extra stage when it's in progressive mode
+    if(itemId == 60013 and Tracker:FindObjectForCode("stage_unlocked").CurrentStage >= 5) then
+        itemId = 60017
+    end
 
     local itemObject = ITEM_MAPPING[itemId]
 
@@ -91,16 +99,18 @@ function onLocation(locationId, locationName)
         return
     end
 
-    local trackerLocationObject = Tracker:FindObjectForCode(locationObject[1])
+    for _, location in ipairs(locationObject) do
+        local trackerLocationObject = Tracker:FindObjectForCode(location)
 
-    if trackerLocationObject then
-        if locationObject[1]:sub(1, 1) == "@" then
-            trackerLocationObject.AvailableChestCount = trackerLocationObject.AvailableChestCount - 1
+        if trackerLocationObject then
+            if location:sub(1, 1) == "@" then
+                trackerLocationObject.AvailableChestCount = trackerLocationObject.AvailableChestCount - 1
+            else
+                trackerLocationObject.Active = false
+            end
         else
-            trackerLocationObject.Active = false
+            print(string.format("onLocation: Could not find object for code %s", location))
         end
-    else
-        print(string.format("onLocation: Could not find object for code %s", locationObject[1]))
     end
 end
 

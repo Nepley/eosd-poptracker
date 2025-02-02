@@ -9,4 +9,5 @@ ITEM_MAPPING = {
     [60013] = {"stage_unlocked", "progressive"},
     [60015] = {"power_points", "consumable", 25},
     [60030] = {"power_points", "consumable", 1},
+    [60017] = {"extra_stage", "toggle"},
 }

@@ -1,0 +1,1505 @@
+[
+    {
+        "name": "hasShotHasDifficulty",
+        "chest_unopened_img": "/images/ui/life.png",
+        "chest_opened_img": "/images/ui/bomb.png",
+        "visibility_rules": ["$hasShotHasDifficulty"],
+        "children": [
+            {
+                "name": "[Reimu A] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu A] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 67,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu A] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 92,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu A] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 117,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu A] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 142,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu A] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 167,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Reimu A] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu A] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu A] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu A] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu A] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 155,
+                        "y": 192,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu A] Patchouli - MidBoss",
+                        "access_rules": ["reimu_a, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Reimu A] Flandre Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Reimu A] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_a, extra_stage, [$canExtra]"]
+                    }
+                ]
+            },
+
+            {
+                "name": "[Reimu B] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu B] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 67,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu B] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 92,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu B] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 117,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu B] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 142,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Reimu B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Reimu B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu B] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 167,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Reimu B] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Reimu B] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Reimu B] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Reimu B] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Reimu B] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 185,
+                        "y": 192,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Reimu B] Patchouli - MidBoss",
+                        "access_rules": ["reimu_b, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Reimu B] Flandre Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Reimu B] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["reimu_b, extra_stage, [$canExtra]"]
+                    }
+                ]
+            },
+
+            {
+                "name": "[Marisa A] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa A] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 67,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa A] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 92,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa A] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 117,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa A] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 142,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa A] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 167,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Marisa A] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa A] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa A] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa A] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa A] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 285,
+                        "y": 192,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa A] Patchouli - MidBoss",
+                        "access_rules": ["marisa_a, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Marisa A] Flandre Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Marisa A] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_a, extra_stage, [$canExtra]"]
+                    }
+                ]
+            },
+
+            {
+                "name": "[Marisa B] Stage 1",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 42,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Rumia - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Rumia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1, lunatic"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage 1 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_1"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa B] Stage 2",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 67,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Daiyousei Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Cirno Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2, lunatic"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage 2 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_2"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa B] Stage 3",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 92,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Meiling - MidBoss",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Meiling Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage 3 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_3, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa B] Stage 4",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 117,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Koakuma Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Patchouli Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage 4 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_4, [$canStage34]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa B] Stage 5",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 142,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Easy][Marisa B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Easy][Marisa B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], $canEasy"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Sakuya - MidBoss 1",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Sakuya Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage 5 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_5, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa B] Stage 6",
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 167,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Normal][Marisa B] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Normal][Marisa B] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56], $canNormal"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Hard][Marisa B] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56], $canHard"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Sakuya - MidBoss 2",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Lunatic][Marisa B] Remilia Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56], lunatic"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage 6 Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, stage_6, [$canStage56]"]
+                    }
+                ]
+            },
+            {
+                "name": "[Marisa B] Stage Extra",
+                "visibility_rules": ["$extraStage"],
+                "map_locations": [
+                    {
+                        "map": "eosd",
+                        "x": 315,
+                        "y": 192,
+                        "size": 15,
+                        "border_thickness": 2
+                    }
+                ],
+                "sections": [
+                    {
+                        "name": "[Marisa B] Patchouli - MidBoss",
+                        "access_rules": ["marisa_b, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Marisa B] Flandre Defeated",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, extra_stage, [$canExtra]"]
+                    },
+                    {
+                        "name": "[Marisa B] Stage Extra Clear",
+                        "visibility_rules": [],
+                        "access_rules": ["marisa_b, extra_stage, [$canExtra]"]
+                    }
+                ]
+            }
+        ]
+    }
+]

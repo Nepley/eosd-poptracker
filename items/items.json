@@ -10,37 +10,37 @@
                     "img": "/images/items/Numbers/1.png",
                     "codes": "stage_1",
                     "inherit_codes": false,
-                    "name": "1 Stage" 
+                    "name": "1 Stage"
                 },
                 {
                     "img": "/images/items/Numbers/2.png",
                     "codes": "stage_2",
                     "inherit_codes": true,
-                    "name": "2 Stages" 
+                    "name": "2 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/3.png",
                     "codes": "stage_3",
                     "inherit_codes": true,
-                    "name": "3 Stages" 
+                    "name": "3 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/4.png",
                     "codes": "stage_4",
                     "inherit_codes": true,
-                    "name": "4 Stages" 
+                    "name": "4 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/5.png",
                     "codes": "stage_5",
                     "inherit_codes": true,
-                    "name": "5 Stages" 
+                    "name": "5 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/6.png",
                     "codes": "stage_6",
                     "inherit_codes": true,
-                    "name": "6 Stages" 
+                    "name": "6 Stages"
                 }
         ]
     },
@@ -76,6 +76,12 @@
                     "name": "Easy" 
                 }
         ]
+    },
+    {
+        "name": "Extra Stage",
+        "type": "toggle",
+        "img": "/images/items/Difficulties/extra.png",
+        "codes": "extra_stage"
     },
     {
         "name": "Lives",
@@ -127,7 +133,39 @@
     },
     
     
-    
+    {
+        "name": "Shot type checks",
+        "type": "toggle",
+        "img": "/images/items/shot_check.png",
+        "codes": "shot_type_check"
+    },
+    {
+        "name": "Difficulty checks",
+        "type": "toggle",
+        "img": "/images/items/difficulty_check.png",
+        "codes": "difficulty_check"
+    },
+    {
+        "name": "Extra stage included",
+        "type": "progressive",
+        "codes": "extra_stage_included",
+        "allow_disabled": true,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/progressive_extra.png",
+                    "codes": "extra_progressive",
+                    "inherit_codes": false,
+                    "name": "Extra stage included - Progressive" 
+                },
+                {
+                    "img": "/images/items/Difficulties/extra.png",
+                    "codes": "extra_apart",
+                    "inherit_codes": false,
+                    "name": "Extra stage included - Apart" 
+                }
+        ]
+    },
     {
         "name": "Lives for Stages 3 and 4",
         "type": "consumable",
@@ -225,5 +263,21 @@
                     "name": "Difficulty for Stages 5 and 6" 
                 }
         ]
+    },
+    {
+        "name": "Lives for Stages Extra",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/life_up.png",
+        "codes": "lives_extra"
+    },
+    {
+        "name": "Bombs for Stages Extra",
+        "type": "consumable",
+        "min_quantity": 0,
+        "max_quantity": 8,
+        "img": "/images/items/bomb_up.png",
+        "codes": "bombs_extra"
     }
 ]

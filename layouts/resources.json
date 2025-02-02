@@ -19,7 +19,8 @@
                         "rows": [
                             [
                                 "stage_unlocked",
-                                "lower_difficulty"
+                                "lower_difficulty",
+                                "extra_stage"
                             ],
                             [
                                 "lives",
