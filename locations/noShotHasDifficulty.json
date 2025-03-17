@@ -20,47 +20,47 @@
                     {
                         "name": "[Easy][Reimu] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, $canEasy", "reimu_b, stage_1, $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canEasy", "reimu_b, reimu_b_stage_1, $canEasy"]
                     },
                     {
                         "name": "[Easy][Reimu] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, $canEasy", "reimu_b, stage_1, $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canEasy", "reimu_b, reimu_b_stage_1, $canEasy"]
                     },
                     {
                         "name": "[Normal][Reimu] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, $canNormal", "reimu_b, stage_1, $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canNormal", "reimu_b, reimu_b_stage_1, $canNormal"]
                     },
                     {
                         "name": "[Normal][Reimu] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, $canNormal", "reimu_b, stage_1, $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canNormal", "reimu_b, reimu_b_stage_1, $canNormal"]
                     },
                     {
                         "name": "[Hard][Reimu] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, $canHard", "reimu_b, stage_1, $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canHard", "reimu_b, reimu_b_stage_1, $canHard"]
                     },
                     {
                         "name": "[Hard][Reimu] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, $canHard", "reimu_b, stage_1, $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, $canHard", "reimu_b, reimu_b_stage_1, $canHard"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, lunatic", "reimu_b, stage_1, lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, lunatic", "reimu_b, reimu_b_stage_1, lunatic"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1, lunatic", "reimu_b, stage_1, lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1, lunatic", "reimu_b, reimu_b_stage_1, lunatic"]
                     },
                     {
                         "name": "[Reimu] Stage 1 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_1", "reimu_b, stage_1"]
+                        "access_rules": ["reimu_a, reimu_a_stage_1", "reimu_b, reimu_b_stage_1"]
                     }
                 ]
             },
@@ -79,47 +79,47 @@
                     {
                         "name": "[Easy][Reimu] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, $canEasy", "reimu_b, stage_2, $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canEasy", "reimu_b, reimu_b_stage_2, $canEasy"]
                     },
                     {
                         "name": "[Easy][Reimu] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, $canEasy", "reimu_b, stage_2, $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canEasy", "reimu_b, reimu_b_stage_2, $canEasy"]
                     },
                     {
                         "name": "[Normal][Reimu] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, $canNormal", "reimu_b, stage_2, $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canNormal", "reimu_b, reimu_b_stage_2, $canNormal"]
                     },
                     {
                         "name": "[Normal][Reimu] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, $canNormal", "reimu_b, stage_2, $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canNormal", "reimu_b, reimu_b_stage_2, $canNormal"]
                     },
                     {
                         "name": "[Hard][Reimu] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, $canHard", "reimu_b, stage_2, $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canHard", "reimu_b, reimu_b_stage_2, $canHard"]
                     },
                     {
                         "name": "[Hard][Reimu] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, $canHard", "reimu_b, stage_2, $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, $canHard", "reimu_b, reimu_b_stage_2, $canHard"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, lunatic", "reimu_b, stage_2, lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, lunatic", "reimu_b, reimu_b_stage_2, lunatic"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2, lunatic", "reimu_b, stage_2, lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2, lunatic", "reimu_b, reimu_b_stage_2, lunatic"]
                     },
                     {
                         "name": "[Reimu] Stage 2 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_2", "reimu_b, stage_2"]
+                        "access_rules": ["reimu_a, reimu_a_stage_2", "reimu_b, reimu_b_stage_2"]
                     }
                 ]
             },
@@ -138,47 +138,47 @@
                     {
                         "name": "[Easy][Reimu] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canEasy", "reimu_b, stage_3, [$canStage34], $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_3, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Easy][Reimu] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canEasy", "reimu_b, stage_3, [$canStage34], $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_3, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Normal][Reimu] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canNormal", "reimu_b, stage_3, [$canStage34], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_3, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Normal][Reimu] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canNormal", "reimu_b, stage_3, [$canStage34], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_3, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Hard][Reimu] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canHard", "reimu_b, stage_3, [$canStage34], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canHard", "reimu_b, reimu_b_stage_3, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Hard][Reimu] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], $canHard", "reimu_b, stage_3, [$canStage34], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], $canHard", "reimu_b, reimu_b_stage_3, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], lunatic", "reimu_b, stage_3, [$canStage34], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], lunatic", "reimu_b, reimu_b_stage_3, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34], lunatic", "reimu_b, stage_3, [$canStage34], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34], lunatic", "reimu_b, reimu_b_stage_3, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Reimu] Stage 3 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_3, [$canStage34]", "reimu_b, stage_3, [$canStage34]"]
+                        "access_rules": ["reimu_a, reimu_a_stage_3, [$canStage34]", "reimu_b, reimu_b_stage_3, [$canStage34]"]
                     }
                 ]
             },
@@ -197,47 +197,47 @@
                     {
                         "name": "[Easy][Reimu] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canEasy", "reimu_b, stage_4, [$canStage34], $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_4, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Easy][Reimu] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canEasy", "reimu_b, stage_4, [$canStage34], $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canEasy", "reimu_b, reimu_b_stage_4, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Normal][Reimu] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canNormal", "reimu_b, stage_4, [$canStage34], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_4, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Normal][Reimu] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canNormal", "reimu_b, stage_4, [$canStage34], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canNormal", "reimu_b, reimu_b_stage_4, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Hard][Reimu] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canHard", "reimu_b, stage_4, [$canStage34], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canHard", "reimu_b, reimu_b_stage_4, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Hard][Reimu] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], $canHard", "reimu_b, stage_4, [$canStage34], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], $canHard", "reimu_b, reimu_b_stage_4, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], lunatic", "reimu_b, stage_4, [$canStage34], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], lunatic", "reimu_b, reimu_b_stage_4, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34], lunatic", "reimu_b, stage_4, [$canStage34], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34], lunatic", "reimu_b, reimu_b_stage_4, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Reimu] Stage 4 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_4, [$canStage34]", "reimu_a, stage_4, [$canStage34]"]
+                        "access_rules": ["reimu_a, reimu_a_stage_4, [$canStage34]", "reimu_a, reimu_a_stage_4, [$canStage34]"]
                     }
                 ]
             },
@@ -256,47 +256,47 @@
                     {
                         "name": "[Easy][Reimu] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canEasy", "reimu_b, stage_5, [$canStage56], $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canEasy", "reimu_b, reimu_b_stage_5, [$canStage56], $canEasy"]
                     },
                     {
                         "name": "[Easy][Reimu] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canEasy", "reimu_b, stage_5, [$canStage56], $canEasy"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canEasy", "reimu_b, reimu_b_stage_5, [$canStage56], $canEasy"]
                     },
                     {
                         "name": "[Normal][Reimu] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canNormal", "reimu_b, stage_5, [$canStage56], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_5, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Normal][Reimu] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canNormal", "reimu_b, stage_5, [$canStage56], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_5, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Hard][Reimu] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canHard", "reimu_b, stage_5, [$canStage56], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canHard", "reimu_b, reimu_b_stage_5, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Hard][Reimu] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], $canHard", "reimu_b, stage_5, [$canStage56], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], $canHard", "reimu_b, reimu_b_stage_5, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], lunatic", "reimu_b, stage_5, [$canStage56], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], lunatic", "reimu_b, reimu_b_stage_5, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56], lunatic", "reimu_b, stage_5, [$canStage56], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56], lunatic", "reimu_b, reimu_b_stage_5, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Reimu] Stage 5 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_5, [$canStage56]", "reimu_b, stage_5, [$canStage56]"]
+                        "access_rules": ["reimu_a, reimu_a_stage_5, [$canStage56]", "reimu_b, reimu_b_stage_5, [$canStage56]"]
                     }
                 ]
             },
@@ -315,37 +315,37 @@
                     {
                         "name": "[Normal][Reimu] Sakuya - MidBoss 2",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canNormal", "reimu_b, stage_6, [$canStage56], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_6, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Normal][Reimu] Remilia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canNormal", "reimu_b, stage_6, [$canStage56], $canNormal"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canNormal", "reimu_b, reimu_b_stage_6, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Hard][Reimu] Sakuya - MidBoss 2",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canHard", "reimu_b, stage_6, [$canStage56], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canHard", "reimu_b, reimu_b_stage_6, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Hard][Reimu] Remilia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56], $canHard", "reimu_b, stage_6, [$canStage56], $canHard"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], $canHard", "reimu_b, reimu_b_stage_6, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Sakuya - MidBoss 2",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56], lunatic", "reimu_b, stage_6, [$canStage56], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], lunatic", "reimu_b, reimu_b_stage_6, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Reimu] Remilia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56], lunatic", "reimu_b, stage_6, [$canStage56], lunatic"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56], lunatic", "reimu_b, reimu_b_stage_6, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Reimu] Stage 6 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, stage_6, [$canStage56]", "reimu_b, stage_6, [$canStage56]"]
+                        "access_rules": ["reimu_a, reimu_a_stage_6, [$canStage56]", "reimu_b, reimu_b_stage_6, [$canStage56]"]
                     }
                 ]
             },
@@ -364,17 +364,17 @@
                 "sections": [
                     {
                         "name": "[Reimu] Patchouli - MidBoss",
-                        "access_rules": ["reimu_a, extra_stage, [$canExtra]", "reimu_b, extra_stage, [$canExtra]"]
+                        "access_rules": ["reimu_a, reimu_a_extra_stage, [$canExtra]", "reimu_b, reimu_b_extra_stage, [$canExtra]"]
                     },
                     {
                         "name": "[Reimu] Flandre Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, extra_stage, [$canExtra]", "reimu_b, extra_stage, [$canExtra]"]
+                        "access_rules": ["reimu_a, reimu_a_extra_stage, [$canExtra]", "reimu_b, reimu_b_extra_stage, [$canExtra]"]
                     },
                     {
                         "name": "[Reimu] Stage Extra Clear",
                         "visibility_rules": [],
-                        "access_rules": ["reimu_a, extra_stage, [$canExtra]", "reimu_b, extra_stage, [$canExtra]"]
+                        "access_rules": ["reimu_a, reimu_a_extra_stage, [$canExtra]", "reimu_b, reimu_b_extra_stage, [$canExtra]"]
                     }
                 ]
             },
@@ -394,47 +394,47 @@
                     {
                         "name": "[Easy][Marisa] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, $canEasy", "marisa_b, stage_1, $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canEasy", "marisa_b, marisa_b_stage_1, $canEasy"]
                     },
                     {
                         "name": "[Easy][Marisa] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, $canEasy", "marisa_b, stage_1, $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canEasy", "marisa_b, marisa_b_stage_1, $canEasy"]
                     },
                     {
                         "name": "[Normal][Marisa] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, $canNormal", "marisa_b, stage_1, $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canNormal", "marisa_b, marisa_b_stage_1, $canNormal"]
                     },
                     {
                         "name": "[Normal][Marisa] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, $canNormal", "marisa_b, stage_1, $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canNormal", "marisa_b, marisa_b_stage_1, $canNormal"]
                     },
                     {
                         "name": "[Hard][Marisa] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, $canHard", "marisa_b, stage_1, $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canHard", "marisa_b, marisa_b_stage_1, $canHard"]
                     },
                     {
                         "name": "[Hard][Marisa] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, $canHard", "marisa_b, stage_1, $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, $canHard", "marisa_b, marisa_b_stage_1, $canHard"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Rumia - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, lunatic", "marisa_b, stage_1, lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, lunatic", "marisa_b, marisa_b_stage_1, lunatic"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Rumia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1, lunatic", "marisa_b, stage_1, lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1, lunatic", "marisa_b, marisa_b_stage_1, lunatic"]
                     },
                     {
                         "name": "[Marisa] Stage 1 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_1", "marisa_b, stage_1"]
+                        "access_rules": ["marisa_a, marisa_a_stage_1", "marisa_b, marisa_b_stage_1"]
                     }
                 ]
             },
@@ -453,47 +453,47 @@
                     {
                         "name": "[Easy][Marisa] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, $canEasy", "marisa_b, stage_2, $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canEasy", "marisa_b, marisa_b_stage_2, $canEasy"]
                     },
                     {
                         "name": "[Easy][Marisa] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, $canEasy", "marisa_b, stage_2, $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canEasy", "marisa_b, marisa_b_stage_2, $canEasy"]
                     },
                     {
                         "name": "[Normal][Marisa] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, $canNormal", "marisa_b, stage_2, $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canNormal", "marisa_b, marisa_b_stage_2, $canNormal"]
                     },
                     {
                         "name": "[Normal][Marisa] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, $canNormal", "marisa_b, stage_2, $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canNormal", "marisa_b, marisa_b_stage_2, $canNormal"]
                     },
                     {
                         "name": "[Hard][Marisa] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, $canHard", "marisa_b, stage_2, $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canHard", "marisa_b, marisa_b_stage_2, $canHard"]
                     },
                     {
                         "name": "[Hard][Marisa] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, $canHard", "marisa_b, stage_2, $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, $canHard", "marisa_b, marisa_b_stage_2, $canHard"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Daiyousei Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, lunatic", "marisa_b, stage_2, lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, lunatic", "marisa_b, marisa_b_stage_2, lunatic"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Cirno Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2, lunatic", "marisa_b, stage_2, lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2, lunatic", "marisa_b, marisa_b_stage_2, lunatic"]
                     },
                     {
                         "name": "[Marisa] Stage 2 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_2", "marisa_b, stage_2"]
+                        "access_rules": ["marisa_a, marisa_a_stage_2", "marisa_b, marisa_b_stage_2"]
                     }
                 ]
             },
@@ -512,47 +512,47 @@
                     {
                         "name": "[Easy][Marisa] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canEasy", "marisa_b, stage_3, [$canStage34], $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_3, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Easy][Marisa] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canEasy", "marisa_b, stage_3, [$canStage34], $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_3, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Normal][Marisa] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canNormal", "marisa_b, stage_3, [$canStage34], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_3, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Normal][Marisa] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canNormal", "marisa_b, stage_3, [$canStage34], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_3, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Hard][Marisa] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canHard", "marisa_b, stage_3, [$canStage34], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canHard", "marisa_b, marisa_b_stage_3, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Hard][Marisa] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], $canHard", "marisa_b, stage_3, [$canStage34], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], $canHard", "marisa_b, marisa_b_stage_3, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Meiling - MidBoss",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], lunatic", "marisa_b, stage_3, [$canStage34], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], lunatic", "marisa_b, marisa_b_stage_3, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Meiling Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34], lunatic", "marisa_b, stage_3, [$canStage34], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34], lunatic", "marisa_b, marisa_b_stage_3, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Marisa] Stage 3 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_3, [$canStage34]", "marisa_b, stage_3, [$canStage34]"]
+                        "access_rules": ["marisa_a, marisa_a_stage_3, [$canStage34]", "marisa_b, marisa_b_stage_3, [$canStage34]"]
                     }
                 ]
             },
@@ -571,47 +571,47 @@
                     {
                         "name": "[Easy][Marisa] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canEasy", "marisa_b, stage_4, [$canStage34], $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_4, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Easy][Marisa] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canEasy", "marisa_b, stage_4, [$canStage34], $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canEasy", "marisa_b, marisa_b_stage_4, [$canStage34], $canEasy"]
                     },
                     {
                         "name": "[Normal][Marisa] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canNormal", "marisa_b, stage_4, [$canStage34], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_4, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Normal][Marisa] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canNormal", "marisa_b, stage_4, [$canStage34], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canNormal", "marisa_b, marisa_b_stage_4, [$canStage34], $canNormal"]
                     },
                     {
                         "name": "[Hard][Marisa] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canHard", "marisa_b, stage_4, [$canStage34], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canHard", "marisa_b, marisa_b_stage_4, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Hard][Marisa] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], $canHard", "marisa_b, stage_4, [$canStage34], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], $canHard", "marisa_b, marisa_b_stage_4, [$canStage34], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Koakuma Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], lunatic", "marisa_b, stage_4, [$canStage34], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], lunatic", "marisa_b, marisa_b_stage_4, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Patchouli Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34], lunatic", "marisa_b, stage_4, [$canStage34], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34], lunatic", "marisa_b, marisa_b_stage_4, [$canStage34], lunatic"]
                     },
                     {
                         "name": "[Marisa] Stage 4 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_4, [$canStage34]", "marisa_b, stage_4, [$canStage34]"]
+                        "access_rules": ["marisa_a, marisa_a_stage_4, [$canStage34]", "marisa_b, marisa_b_stage_4, [$canStage34]"]
                     }
                 ]
             },
@@ -630,47 +630,47 @@
                     {
                         "name": "[Easy][Marisa] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canEasy"]
                     },
                     {
                         "name": "[Easy][Marisa] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canEasy", "marisa_b, stage_5, [$canStage56], $canEasy"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canEasy", "marisa_b, marisa_b_stage_5, [$canStage56], $canEasy"]
                     },
                     {
                         "name": "[Normal][Marisa] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canNormal", "marisa_b, stage_5, [$canStage56], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_5, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Normal][Marisa] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canNormal", "marisa_b, stage_5, [$canStage56], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_5, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Hard][Marisa] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canHard", "marisa_b, stage_5, [$canStage56], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canHard", "marisa_b, marisa_b_stage_5, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Hard][Marisa] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], $canHard", "marisa_b, stage_5, [$canStage56], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], $canHard", "marisa_b, marisa_b_stage_5, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Sakuya - MidBoss 1",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], lunatic", "marisa_b, stage_5, [$canStage56], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], lunatic", "marisa_b, marisa_b_stage_5, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Sakuya Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56], lunatic", "marisa_b, stage_5, [$canStage56], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56], lunatic", "marisa_b, marisa_b_stage_5, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Marisa] Stage 5 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_5, [$canStage56]", "marisa_b, stage_5, [$canStage56]"]
+                        "access_rules": ["marisa_a, marisa_a_stage_5, [$canStage56]", "marisa_b, marisa_b_stage_5, [$canStage56]"]
                     }
                 ]
             },
@@ -689,37 +689,37 @@
                     {
                         "name": "[Normal][Marisa] Sakuya - MidBoss 2",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canNormal", "marisa_b, stage_6, [$canStage56], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_6, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Normal][Marisa] Remilia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canNormal", "marisa_b, stage_6, [$canStage56], $canNormal"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canNormal", "marisa_b, marisa_b_stage_6, [$canStage56], $canNormal"]
                     },
                     {
                         "name": "[Hard][Marisa] Sakuya - MidBoss 2",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canHard", "marisa_b, stage_6, [$canStage56], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canHard", "marisa_b, marisa_b_stage_6, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Hard][Marisa] Remilia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56], $canHard", "marisa_b, stage_6, [$canStage56], $canHard"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], $canHard", "marisa_b, marisa_b_stage_6, [$canStage56], $canHard"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Sakuya - MidBoss 2",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56], lunatic", "marisa_b, stage_6, [$canStage56], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], lunatic", "marisa_b, marisa_b_stage_6, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Lunatic][Marisa] Remilia Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56], lunatic", "marisa_b, stage_6, [$canStage56], lunatic"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56], lunatic", "marisa_b, marisa_b_stage_6, [$canStage56], lunatic"]
                     },
                     {
                         "name": "[Marisa] Stage 6 Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, stage_6, [$canStage56]", "marisa_b, stage_6, [$canStage56]"]
+                        "access_rules": ["marisa_a, marisa_a_stage_6, [$canStage56]", "marisa_b, marisa_b_stage_6, [$canStage56]"]
                     }
                 ]
             },
@@ -738,17 +738,17 @@
                 "sections": [
                     {
                         "name": "[Marisa] Patchouli - MidBoss",
-                        "access_rules": ["marisa_a, extra_stage, [$canExtra]", "marisa_b, extra_stage, [$canExtra]"]
+                        "access_rules": ["marisa_a, marisa_a_extra_stage, [$canExtra]", "marisa_b, marisa_b_extra_stage, [$canExtra]"]
                     },
                     {
                         "name": "[Marisa] Flandre Defeated",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, extra_stage, [$canExtra]", "marisa_b, extra_stage, [$canExtra]"]
+                        "access_rules": ["marisa_a, marisa_a_extra_stage, [$canExtra]", "marisa_b, marisa_b_extra_stage, [$canExtra]"]
                     },
                     {
                         "name": "[Marisa] Stage Extra Clear",
                         "visibility_rules": [],
-                        "access_rules": ["marisa_a, extra_stage, [$canExtra]", "marisa_b, extra_stage, [$canExtra]"]
+                        "access_rules": ["marisa_a, marisa_a_extra_stage, [$canExtra]", "marisa_b, marisa_b_extra_stage, [$canExtra]"]
                     }
                 ]
             }

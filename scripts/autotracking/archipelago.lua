@@ -22,23 +22,25 @@ function onClear(slotData)
     end
 
     -- Reset Items
-    for _, layoutItemData in pairs(ITEM_MAPPING) do
-        if layoutItemData[1] and layoutItemData[2] then
-            local layoutItemObject = Tracker:FindObjectForCode(layoutItemData[1])
+    for _, item in ipairs(ITEM_MAPPING) do
+        for _, layoutItemData in pairs(item) do
+            if layoutItemData[1] and layoutItemData[2] then
+                local layoutItemObject = Tracker:FindObjectForCode(layoutItemData[1])
 
-            if layoutItemObject then
-                if layoutItemData[2] == "toggle" then
-                    layoutItemObject.Active = false
-                elseif layoutItemData[2] == "progressive" then
-                    layoutItemObject.CurrentStage = 0
-                    layoutItemObject.Active = false
-                elseif layoutItemData[2] == "consumable" then
-                    layoutItemObject.AcquiredCount = 0
+                if layoutItemObject then
+                    if layoutItemData[2] == "toggle" then
+                        layoutItemObject.Active = false
+                    elseif layoutItemData[2] == "progressive" then
+                        layoutItemObject.CurrentStage = 0
+                        layoutItemObject.Active = false
+                    elseif layoutItemData[2] == "consumable" then
+                        layoutItemObject.AcquiredCount = 0
+                    elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                        print(string.format("onClear: Unknown item type %s for code %s", layoutItemData[2], layoutItemData[1]))
+                    end
                 elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                    print(string.format("onClear: Unknown item type %s for code %s", layoutItemData[2], layoutItemData[1]))
+                    print(string.format("onClear: Could not find object for code %s", layoutItemData[1]))
                 end
-            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-                print(string.format("onClear: Could not find object for code %s", layoutItemData[1]))
             end
         end
     end
@@ -65,8 +67,21 @@ function onItem(index, itemId, itemName, playerNumber)
     CURRENT_INDEX = index
 
     --- Special case for the extra stage when it's in progressive mode
-    if(itemId == 60013 and Tracker:FindObjectForCode("stage_unlocked").CurrentStage >= 5) then
-        itemId = 60017
+    --- We only check the first one since we consider that there is only one type of stage unlock group
+    if(itemId == STARTING_ITEM_ID + 200 and Tracker:FindObjectForCode("reimu_a_stage_unlocked").CurrentStage >= 5) then
+        itemId = STARTING_ITEM_ID + 208
+    elseif(itemId == STARTING_ITEM_ID + 201 and Tracker:FindObjectForCode("reimu_a_stage_unlocked").CurrentStage >= 5)  then
+        itemId = STARTING_ITEM_ID + 209
+    elseif(itemId == STARTING_ITEM_ID + 202 and Tracker:FindObjectForCode("marisa_a_stage_unlocked").CurrentStage >= 5)  then
+        itemId = STARTING_ITEM_ID + 210
+    elseif(itemId == STARTING_ITEM_ID + 203 and Tracker:FindObjectForCode("reimu_a_stage_unlocked").CurrentStage >= 5)  then
+        itemId = STARTING_ITEM_ID + 211
+    elseif(itemId == STARTING_ITEM_ID + 204 and Tracker:FindObjectForCode("reimu_b_stage_unlocked").CurrentStage >= 5)  then
+        itemId = STARTING_ITEM_ID + 212
+    elseif(itemId == STARTING_ITEM_ID + 205 and Tracker:FindObjectForCode("marisa_a_stage_unlocked").CurrentStage >= 5)  then
+        itemId = STARTING_ITEM_ID + 213
+    elseif(itemId == STARTING_ITEM_ID + 206 and Tracker:FindObjectForCode("marisa_b_stage_unlocked").CurrentStage >= 5)  then
+        itemId = STARTING_ITEM_ID + 214
     end
 
     local itemObject = ITEM_MAPPING[itemId]
@@ -75,20 +90,22 @@ function onItem(index, itemId, itemName, playerNumber)
         return
     end
 
-    local trackerItemObject = Tracker:FindObjectForCode(itemObject[1])
+    for _, item in ipairs(itemObject) do
+        local trackerItemObject = Tracker:FindObjectForCode(item[1])
 
-    if trackerItemObject then
-        if itemObject[2] == "toggle" then
-            trackerItemObject.Active = true
-        elseif itemObject[2] == "progressive" then
-            trackerItemObject.CurrentStage = trackerItemObject.CurrentStage + 1
-        elseif itemObject[2] == "consumable" then
-            trackerItemObject.AcquiredCount = trackerItemObject.AcquiredCount + ITEM_MAPPING[itemId][3]
-        elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
-            print(string.format("onItem: Unknown item type %s for code %s", itemObject[2], itemObject[1]))
+        if trackerItemObject then
+            if item[2] == "toggle" then
+                trackerItemObject.Active = true
+            elseif item[2] == "progressive" then
+                trackerItemObject.CurrentStage = trackerItemObject.CurrentStage + 1
+            elseif item[2] == "consumable" then
+                trackerItemObject.AcquiredCount = trackerItemObject.AcquiredCount + item[3]
+            elseif AUTOTRACKER_ENABLE_DEBUG_LOGGING_AP then
+                print(string.format("onItem: Unknown item type %s for code %s", item[2], item[1]))
+            end
+        else
+            print(string.format("onItem: Could not find object for code %s", item[1]))
         end
-    else
-        print(string.format("onItem: Could not find object for code %s", itemObject[1]))
     end
 end
 

@@ -1,433 +1,141 @@
-LOCATION_MAPPING = {
-	[91000] = {"@noShotNoDifficulty/[Reimu] Stage 1/[Reimu] Rumia - MidBoss"},
-	[91001] = {"@noShotNoDifficulty/[Reimu] Stage 1/[Reimu] Rumia Defeated"},
-	[91034] = {"@noShotNoDifficulty/[Reimu] Stage 1/[Reimu] Stage 1 Clear", "@noShotHasDifficulty/[Reimu] Stage 1/[Reimu] Stage 1 Clear"},
-	[91002] = {"@noShotNoDifficulty/[Reimu] Stage 2/[Reimu] Daiyousei Defeated"},
-	[91004] = {"@noShotNoDifficulty/[Reimu] Stage 2/[Reimu] Cirno Defeated"},
-	[91003] = {"@noShotNoDifficulty/[Reimu] Stage 2/[Reimu] Stage 2 Clear", "@noShotHasDifficulty/[Reimu] Stage 2/[Reimu] Stage 2 Clear"},
-	[91006] = {"@noShotNoDifficulty/[Reimu] Stage 3/[Reimu] Meiling - MidBoss"},
-	[91007] = {"@noShotNoDifficulty/[Reimu] Stage 3/[Reimu] Meiling Defeated"},
-	[91005] = {"@noShotNoDifficulty/[Reimu] Stage 3/[Reimu] Stage 3 Clear", "@noShotHasDifficulty/[Reimu] Stage 3/[Reimu] Stage 3 Clear"},
-	[91008] = {"@noShotNoDifficulty/[Reimu] Stage 4/[Reimu] Koakuma Defeated"},
-	[91010] = {"@noShotNoDifficulty/[Reimu] Stage 4/[Reimu] Patchouli Defeated"},
-	[91009] = {"@noShotNoDifficulty/[Reimu] Stage 4/[Reimu] Stage 4 Clear", "@noShotHasDifficulty/[Reimu] Stage 4/[Reimu] Stage 4 Clear"},
-	[91012] = {"@noShotNoDifficulty/[Reimu] Stage 5/[Reimu] Sakuya - MidBoss 1"},
-	[91013] = {"@noShotNoDifficulty/[Reimu] Stage 5/[Reimu] Sakuya Defeated"},
-	[91011] = {"@noShotNoDifficulty/[Reimu] Stage 5/[Reimu] Stage 5 Clear", "@noShotHasDifficulty/[Reimu] Stage 5/[Reimu] Stage 5 Clear"},
-	[91015] = {"@noShotNoDifficulty/[Reimu] Stage 6/[Reimu] Sakuya - MidBoss 2"},
-	[91016] = {"@noShotNoDifficulty/[Reimu] Stage 6/[Reimu] Remilia Defeated"},
-	[91014] = {"@noShotNoDifficulty/[Reimu] Stage 6/[Reimu] Stage 6 Clear", "@noShotHasDifficulty/[Reimu] Stage 6/[Reimu] Stage 6 Clear"},
-	[91036] = {"@noShotNoDifficulty/[Reimu] Stage Extra/[Reimu] Patchouli - MidBoss", "@noShotHasDifficulty/[Reimu] Stage Extra/[Reimu] Patchouli - MidBoss"},
-	[91037] = {"@noShotNoDifficulty/[Reimu] Stage Extra/[Reimu] Flandre Defeated", "@noShotHasDifficulty/[Reimu] Stage Extra/[Reimu] Flandre Defeated"},
-	[91038] = {"@noShotNoDifficulty/[Reimu] Stage Extra/[Reimu] Stage Extra Clear", "@noShotHasDifficulty/[Reimu] Stage Extra/[Reimu] Stage Extra Clear"},
-
-	[91017] = {"@noShotNoDifficulty/[Marisa] Stage 1/[Marisa] Rumia - MidBoss"},
-	[91018] = {"@noShotNoDifficulty/[Marisa] Stage 1/[Marisa] Rumia Defeated"},
-	[91035] = {"@noShotNoDifficulty/[Marisa] Stage 1/[Marisa] Stage 1 Clear", "@noShotHasDifficulty/[Marisa] Stage 1/[Marisa] Stage 1 Clear"},
-	[91019] = {"@noShotNoDifficulty/[Marisa] Stage 2/[Marisa] Daiyousei Defeated"},
-	[91021] = {"@noShotNoDifficulty/[Marisa] Stage 2/[Marisa] Cirno Defeated"},
-	[91020] = {"@noShotNoDifficulty/[Marisa] Stage 2/[Marisa] Stage 2 Clear", "@noShotHasDifficulty/[Marisa] Stage 2/[Marisa] Stage 2 Clear"},
-	[91023] = {"@noShotNoDifficulty/[Marisa] Stage 3/[Marisa] Meiling - MidBoss"},
-	[91024] = {"@noShotNoDifficulty/[Marisa] Stage 3/[Marisa] Meiling Defeated"},
-	[91022] = {"@noShotNoDifficulty/[Marisa] Stage 3/[Marisa] Stage 3 Clear", "@noShotHasDifficulty/[Marisa] Stage 3/[Marisa] Stage 3 Clear"},
-	[91025] = {"@noShotNoDifficulty/[Marisa] Stage 4/[Marisa] Koakuma Defeated"},
-	[91027] = {"@noShotNoDifficulty/[Marisa] Stage 4/[Marisa] Patchouli Defeated"},
-	[91026] = {"@noShotNoDifficulty/[Marisa] Stage 4/[Marisa] Stage 4 Clear", "@noShotHasDifficulty/[Marisa] Stage 4/[Marisa] Stage 4 Clear"},
-	[91029] = {"@noShotNoDifficulty/[Marisa] Stage 5/[Marisa] Sakuya - MidBoss 1"},
-	[91030] = {"@noShotNoDifficulty/[Marisa] Stage 5/[Marisa] Sakuya Defeated"},
-	[91028] = {"@noShotNoDifficulty/[Marisa] Stage 5/[Marisa] Stage 5 Clear", "@noShotHasDifficulty/[Marisa] Stage 5/[Marisa] Stage 5 Clear"},
-	[91032] = {"@noShotNoDifficulty/[Marisa] Stage 6/[Marisa] Sakuya - MidBoss 2"},
-	[91033] = {"@noShotNoDifficulty/[Marisa] Stage 6/[Marisa] Remilia Defeated"},
-	[91031] = {"@noShotNoDifficulty/[Marisa] Stage 6/[Marisa] Stage 6 Clear", "@noShotHasDifficulty/[Marisa] Stage 6/[Marisa] Stage 6 Clear"},
-	[91039] = {"@noShotNoDifficulty/[Marisa] Stage Extra/[Marisa] Patchouli - MidBoss", "@noShotHasDifficulty/[Marisa] Stage Extra/[Marisa] Patchouli - MidBoss"},
-	[91040] = {"@noShotNoDifficulty/[Marisa] Stage Extra/[Marisa] Flandre Defeated", "@noShotHasDifficulty/[Marisa] Stage Extra/[Marisa] Flandre Defeated"},
-	[91041] = {"@noShotNoDifficulty/[Marisa] Stage Extra/[Marisa] Stage Extra Clear", "@noShotHasDifficulty/[Marisa] Stage Extra/[Marisa] Stage Extra Clear"},
-
-	[91042] = {"@hasShotNoDifficulty/[Reimu A] Stage 1/[Reimu A] Rumia - MidBoss"},
-	[91043] = {"@hasShotNoDifficulty/[Reimu A] Stage 1/[Reimu A] Rumia Defeated"},
-	[91044] = {"@hasShotNoDifficulty/[Reimu A] Stage 1/[Reimu A] Stage 1 Clear", "@hasShotHasDifficulty/[Reimu A] Stage 1/[Reimu A] Stage 1 Clear"},
-	[91045] = {"@hasShotNoDifficulty/[Reimu A] Stage 2/[Reimu A] Daiyousei Defeated"},
-	[91046] = {"@hasShotNoDifficulty/[Reimu A] Stage 2/[Reimu A] Cirno Defeated"},
-	[91047] = {"@hasShotNoDifficulty/[Reimu A] Stage 2/[Reimu A] Stage 2 Clear", "@hasShotHasDifficulty/[Reimu A] Stage 2/[Reimu A] Stage 2 Clear"},
-	[91048] = {"@hasShotNoDifficulty/[Reimu A] Stage 3/[Reimu A] Meiling - MidBoss"},
-	[91049] = {"@hasShotNoDifficulty/[Reimu A] Stage 3/[Reimu A] Meiling Defeated"},
-	[91050] = {"@hasShotNoDifficulty/[Reimu A] Stage 3/[Reimu A] Stage 3 Clear", "@hasShotHasDifficulty/[Reimu A] Stage 3/[Reimu A] Stage 3 Clear"},
-	[91051] = {"@hasShotNoDifficulty/[Reimu A] Stage 4/[Reimu A] Koakuma Defeated"},
-	[91052] = {"@hasShotNoDifficulty/[Reimu A] Stage 4/[Reimu A] Patchouli Defeated"},
-	[91053] = {"@hasShotNoDifficulty/[Reimu A] Stage 4/[Reimu A] Stage 4 Clear", "@hasShotHasDifficulty/[Reimu A] Stage 4/[Reimu A] Stage 4 Clear"},
-	[91054] = {"@hasShotNoDifficulty/[Reimu A] Stage 5/[Reimu A] Sakuya - MidBoss 1"},
-	[91055] = {"@hasShotNoDifficulty/[Reimu A] Stage 5/[Reimu A] Sakuya Defeated"},
-	[91056] = {"@hasShotNoDifficulty/[Reimu A] Stage 5/[Reimu A] Stage 5 Clear", "@hasShotHasDifficulty/[Reimu A] Stage 5/[Reimu A] Stage 5 Clear"},
-	[91057] = {"@hasShotNoDifficulty/[Reimu A] Stage 6/[Reimu A] Sakuya - MidBoss 2"},
-	[91058] = {"@hasShotNoDifficulty/[Reimu A] Stage 6/[Reimu A] Remilia Defeated"},
-	[91059] = {"@hasShotNoDifficulty/[Reimu A] Stage 6/[Reimu A] Stage 6 Clear", "@hasShotHasDifficulty/[Reimu A] Stage 6/[Reimu A] Stage 6 Clear"},
-	[91060] = {"@hasShotNoDifficulty/[Reimu A] Stage Extra/[Reimu A] Patchouli - MidBoss", "@hasShotHasDifficulty/[Reimu A] Stage Extra/[Reimu A] Patchouli - MidBoss"},
-	[91061] = {"@hasShotNoDifficulty/[Reimu A] Stage Extra/[Reimu A] Flandre Defeated", "@hasShotHasDifficulty/[Reimu A] Stage Extra/[Reimu A] Flandre Defeated"},
-	[91062] = {"@hasShotNoDifficulty/[Reimu A] Stage Extra/[Reimu A] Stage Extra Clear", "@hasShotHasDifficulty/[Reimu A] Stage Extra/[Reimu A] Stage Extra Clear"},
-
-	[91063] = {"@hasShotNoDifficulty/[Reimu B] Stage 1/[Reimu B] Rumia - MidBoss"},
-	[91064] = {"@hasShotNoDifficulty/[Reimu B] Stage 1/[Reimu B] Rumia Defeated"},
-	[91065] = {"@hasShotNoDifficulty/[Reimu B] Stage 1/[Reimu B] Stage 1 Clear", "@hasShotHasDifficulty/[Reimu B] Stage 1/[Reimu B] Stage 1 Clear"},
-	[91066] = {"@hasShotNoDifficulty/[Reimu B] Stage 2/[Reimu B] Daiyousei Defeated"},
-	[91067] = {"@hasShotNoDifficulty/[Reimu B] Stage 2/[Reimu B] Cirno Defeated"},
-	[91068] = {"@hasShotNoDifficulty/[Reimu B] Stage 2/[Reimu B] Stage 2 Clear", "@hasShotHasDifficulty/[Reimu B] Stage 2/[Reimu B] Stage 2 Clear"},
-	[91069] = {"@hasShotNoDifficulty/[Reimu B] Stage 3/[Reimu B] Meiling - MidBoss"},
-	[91070] = {"@hasShotNoDifficulty/[Reimu B] Stage 3/[Reimu B] Meiling Defeated"},
-	[91071] = {"@hasShotNoDifficulty/[Reimu B] Stage 3/[Reimu B] Stage 3 Clear", "@hasShotHasDifficulty/[Reimu B] Stage 3/[Reimu B] Stage 3 Clear"},
-	[91072] = {"@hasShotNoDifficulty/[Reimu B] Stage 4/[Reimu B] Koakuma Defeated"},
-	[91073] = {"@hasShotNoDifficulty/[Reimu B] Stage 4/[Reimu B] Patchouli Defeated"},
-	[91074] = {"@hasShotNoDifficulty/[Reimu B] Stage 4/[Reimu B] Stage 4 Clear", "@hasShotHasDifficulty/[Reimu B] Stage 4/[Reimu B] Stage 4 Clear"},
-	[91075] = {"@hasShotNoDifficulty/[Reimu B] Stage 5/[Reimu B] Sakuya - MidBoss 1"},
-	[91076] = {"@hasShotNoDifficulty/[Reimu B] Stage 5/[Reimu B] Sakuya Defeated"},
-	[91077] = {"@hasShotNoDifficulty/[Reimu B] Stage 5/[Reimu B] Stage 5 Clear", "@hasShotHasDifficulty/[Reimu B] Stage 5/[Reimu B] Stage 5 Clear"},
-	[91078] = {"@hasShotNoDifficulty/[Reimu B] Stage 6/[Reimu B] Sakuya - MidBoss 2"},
-	[91079] = {"@hasShotNoDifficulty/[Reimu B] Stage 6/[Reimu B] Remilia Defeated"},
-	[91080] = {"@hasShotNoDifficulty/[Reimu B] Stage 6/[Reimu B] Stage 6 Clear", "@hasShotHasDifficulty/[Reimu B] Stage 6/[Reimu B] Stage 6 Clear"},
-	[91081] = {"@hasShotNoDifficulty/[Reimu B] Stage Extra/[Reimu B] Patchouli - MidBoss", "@hasShotHasDifficulty/[Reimu B] Stage Extra/[Reimu B] Patchouli - MidBoss"},
-	[91082] = {"@hasShotNoDifficulty/[Reimu B] Stage Extra/[Reimu B] Flandre Defeated", "@hasShotHasDifficulty/[Reimu B] Stage Extra/[Reimu B] Flandre Defeated"},
-	[91083] = {"@hasShotNoDifficulty/[Reimu B] Stage Extra/[Reimu B] Stage Extra Clear", "@hasShotHasDifficulty/[Reimu B] Stage Extra/[Reimu B] Stage Extra Clear"},
-
-	[91084] = {"@hasShotNoDifficulty/[Marisa A] Stage 1/[Marisa A] Rumia - MidBoss"},
-	[91085] = {"@hasShotNoDifficulty/[Marisa A] Stage 1/[Marisa A] Rumia Defeated"},
-	[91086] = {"@hasShotNoDifficulty/[Marisa A] Stage 1/[Marisa A] Stage 1 Clear", "@hasShotHasDifficulty/[Marisa A] Stage 1/[Marisa A] Stage 1 Clear"},
-	[91087] = {"@hasShotNoDifficulty/[Marisa A] Stage 2/[Marisa A] Daiyousei Defeated"},
-	[91088] = {"@hasShotNoDifficulty/[Marisa A] Stage 2/[Marisa A] Cirno Defeated"},
-	[91089] = {"@hasShotNoDifficulty/[Marisa A] Stage 2/[Marisa A] Stage 2 Clear", "@hasShotHasDifficulty/[Marisa A] Stage 2/[Marisa A] Stage 2 Clear"},
-	[91090] = {"@hasShotNoDifficulty/[Marisa A] Stage 3/[Marisa A] Meiling - MidBoss"},
-	[91091] = {"@hasShotNoDifficulty/[Marisa A] Stage 3/[Marisa A] Meiling Defeated"},
-	[91092] = {"@hasShotNoDifficulty/[Marisa A] Stage 3/[Marisa A] Stage 3 Clear", "@hasShotHasDifficulty/[Marisa A] Stage 3/[Marisa A] Stage 3 Clear"},
-	[91093] = {"@hasShotNoDifficulty/[Marisa A] Stage 4/[Marisa A] Koakuma Defeated"},
-	[91094] = {"@hasShotNoDifficulty/[Marisa A] Stage 4/[Marisa A] Patchouli Defeated"},
-	[91095] = {"@hasShotNoDifficulty/[Marisa A] Stage 4/[Marisa A] Stage 4 Clear", "@hasShotHasDifficulty/[Marisa A] Stage 4/[Marisa A] Stage 4 Clear"},
-	[91096] = {"@hasShotNoDifficulty/[Marisa A] Stage 5/[Marisa A] Sakuya - MidBoss 1"},
-	[91097] = {"@hasShotNoDifficulty/[Marisa A] Stage 5/[Marisa A] Sakuya Defeated"},
-	[91098] = {"@hasShotNoDifficulty/[Marisa A] Stage 5/[Marisa A] Stage 5 Clear", "@hasShotHasDifficulty/[Marisa A] Stage 5/[Marisa A] Stage 5 Clear"},
-	[91099] = {"@hasShotNoDifficulty/[Marisa A] Stage 6/[Marisa A] Sakuya - MidBoss 2"},
-	[91100] = {"@hasShotNoDifficulty/[Marisa A] Stage 6/[Marisa A] Remilia Defeated"},
-	[91101] = {"@hasShotNoDifficulty/[Marisa A] Stage 6/[Marisa A] Stage 6 Clear", "@hasShotHasDifficulty/[Marisa A] Stage 6/[Marisa A] Stage 6 Clear"},
-	[91102] = {"@hasShotNoDifficulty/[Marisa A] Stage Extra/[Marisa A] Patchouli - MidBoss", "@hasShotHasDifficulty/[Marisa A] Stage Extra/[Marisa A] Patchouli - MidBoss"},
-	[91103] = {"@hasShotNoDifficulty/[Marisa A] Stage Extra/[Marisa A] Flandre Defeated", "@hasShotHasDifficulty/[Marisa A] Stage Extra/[Marisa A] Flandre Defeated"},
-	[91104] = {"@hasShotNoDifficulty/[Marisa A] Stage Extra/[Marisa A] Stage Extra Clear", "@hasShotHasDifficulty/[Marisa A] Stage Extra/[Marisa A] Stage Extra Clear"},
-
-	[91105] = {"@hasShotNoDifficulty/[Marisa B] Stage 1/[Marisa B] Rumia - MidBoss"},
-	[91106] = {"@hasShotNoDifficulty/[Marisa B] Stage 1/[Marisa B] Rumia Defeated"},
-	[91107] = {"@hasShotNoDifficulty/[Marisa B] Stage 1/[Marisa B] Stage 1 Clear", "@hasShotHasDifficulty/[Marisa B] Stage 1/[Marisa B] Stage 1 Clear"},
-	[91108] = {"@hasShotNoDifficulty/[Marisa B] Stage 2/[Marisa B] Daiyousei Defeated"},
-	[91109] = {"@hasShotNoDifficulty/[Marisa B] Stage 2/[Marisa B] Cirno Defeated"},
-	[91110] = {"@hasShotNoDifficulty/[Marisa B] Stage 2/[Marisa B] Stage 2 Clear", "@hasShotHasDifficulty/[Marisa B] Stage 2/[Marisa B] Stage 2 Clear"},
-	[91111] = {"@hasShotNoDifficulty/[Marisa B] Stage 3/[Marisa B] Meiling - MidBoss"},
-	[91112] = {"@hasShotNoDifficulty/[Marisa B] Stage 3/[Marisa B] Meiling Defeated"},
-	[91113] = {"@hasShotNoDifficulty/[Marisa B] Stage 3/[Marisa B] Stage 3 Clear", "@hasShotHasDifficulty/[Marisa B] Stage 3/[Marisa B] Stage 3 Clear"},
-	[91114] = {"@hasShotNoDifficulty/[Marisa B] Stage 4/[Marisa B] Koakuma Defeated"},
-	[91115] = {"@hasShotNoDifficulty/[Marisa B] Stage 4/[Marisa B] Patchouli Defeated"},
-	[91116] = {"@hasShotNoDifficulty/[Marisa B] Stage 4/[Marisa B] Stage 4 Clear", "@hasShotHasDifficulty/[Marisa B] Stage 4/[Marisa B] Stage 4 Clear"},
-	[91117] = {"@hasShotNoDifficulty/[Marisa B] Stage 5/[Marisa B] Sakuya - MidBoss 1"},
-	[91118] = {"@hasShotNoDifficulty/[Marisa B] Stage 5/[Marisa B] Sakuya Defeated"},
-	[91119] = {"@hasShotNoDifficulty/[Marisa B] Stage 5/[Marisa B] Stage 5 Clear", "@hasShotHasDifficulty/[Marisa B] Stage 5/[Marisa B] Stage 5 Clear"},
-	[91120] = {"@hasShotNoDifficulty/[Marisa B] Stage 6/[Marisa B] Sakuya - MidBoss 2"},
-	[91121] = {"@hasShotNoDifficulty/[Marisa B] Stage 6/[Marisa B] Remilia Defeated"},
-	[91122] = {"@hasShotNoDifficulty/[Marisa B] Stage 6/[Marisa B] Stage 6 Clear", "@hasShotHasDifficulty/[Marisa B] Stage 6/[Marisa B] Stage 6 Clear"},
-	[91123] = {"@hasShotNoDifficulty/[Marisa B] Stage Extra/[Marisa B] Patchouli - MidBoss", "@hasShotHasDifficulty/[Marisa B] Stage Extra/[Marisa B] Patchouli - MidBoss"},
-	[91124] = {"@hasShotNoDifficulty/[Marisa B] Stage Extra/[Marisa B] Flandre Defeated", "@hasShotHasDifficulty/[Marisa B] Stage Extra/[Marisa B] Flandre Defeated"},
-	[91125] = {"@hasShotNoDifficulty/[Marisa B] Stage Extra/[Marisa B] Stage Extra Clear", "@hasShotHasDifficulty/[Marisa B] Stage Extra/[Marisa B] Stage Extra Clear"},
-
-	[91126] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Easy][Reimu] Rumia - MidBoss"},
-	[91127] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Easy][Reimu] Rumia Defeated"},
-	[91129] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Easy][Reimu] Daiyousei Defeated"},
-	[91130] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Easy][Reimu] Cirno Defeated"},
-	[91132] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Easy][Reimu] Meiling - MidBoss"},
-	[91133] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Easy][Reimu] Meiling Defeated"},
-	[91135] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Easy][Reimu] Koakuma Defeated"},
-	[91136] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Easy][Reimu] Patchouli Defeated"},
-	[91138] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Easy][Reimu] Sakuya - MidBoss 1"},
-	[91139] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Easy][Reimu] Sakuya Defeated"},
-
-	[91144] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Easy][Marisa] Rumia - MidBoss"},
-	[91145] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Easy][Marisa] Rumia Defeated"},
-	[91147] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Easy][Marisa] Daiyousei Defeated"},
-	[91148] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Easy][Marisa] Cirno Defeated"},
-	[91150] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Easy][Marisa] Meiling - MidBoss"},
-	[91151] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Easy][Marisa] Meiling Defeated"},
-	[91153] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Easy][Marisa] Koakuma Defeated"},
-	[91154] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Easy][Marisa] Patchouli Defeated"},
-	[91156] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Easy][Marisa] Sakuya - MidBoss 1"},
-	[91157] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Easy][Marisa] Sakuya Defeated"},
-
-	[91162] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Easy][Reimu A] Rumia - MidBoss"},
-	[91163] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Easy][Reimu A] Rumia Defeated"},
-	[91165] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Easy][Reimu A] Daiyousei Defeated"},
-	[91166] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Easy][Reimu A] Cirno Defeated"},
-	[91168] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Easy][Reimu A] Meiling - MidBoss"},
-	[91169] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Easy][Reimu A] Meiling Defeated"},
-	[91171] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Easy][Reimu A] Koakuma Defeated"},
-	[91172] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Easy][Reimu A] Patchouli Defeated"},
-	[91174] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Easy][Reimu A] Sakuya - MidBoss 1"},
-	[91175] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Easy][Reimu A] Sakuya Defeated"},
-
-	[91180] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Easy][Reimu B] Rumia - MidBoss"},
-	[91181] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Easy][Reimu B] Rumia Defeated"},
-	[91183] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Easy][Reimu B] Daiyousei Defeated"},
-	[91184] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Easy][Reimu B] Cirno Defeated"},
-	[91186] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Easy][Reimu B] Meiling - MidBoss"},
-	[91187] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Easy][Reimu B] Meiling Defeated"},
-	[91189] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Easy][Reimu B] Koakuma Defeated"},
-	[91190] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Easy][Reimu B] Patchouli Defeated"},
-	[91192] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Easy][Reimu B] Sakuya - MidBoss 1"},
-	[91193] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Easy][Reimu B] Sakuya Defeated"},
-
-	[91198] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Easy][Marisa A] Rumia - MidBoss"},
-	[91199] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Easy][Marisa A] Rumia Defeated"},
-	[91201] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Easy][Marisa A] Daiyousei Defeated"},
-	[91202] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Easy][Marisa A] Cirno Defeated"},
-	[91204] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Easy][Marisa A] Meiling - MidBoss"},
-	[91205] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Easy][Marisa A] Meiling Defeated"},
-	[91207] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Easy][Marisa A] Koakuma Defeated"},
-	[91208] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Easy][Marisa A] Patchouli Defeated"},
-	[91210] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Easy][Marisa A] Sakuya - MidBoss 1"},
-	[91211] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Easy][Marisa A] Sakuya Defeated"},
-
-	[91216] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Easy][Marisa B] Rumia - MidBoss"},
-	[91217] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Easy][Marisa B] Rumia Defeated"},
-	[91219] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Easy][Marisa B] Daiyousei Defeated"},
-	[91220] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Easy][Marisa B] Cirno Defeated"},
-	[91222] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Easy][Marisa B] Meiling - MidBoss"},
-	[91223] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Easy][Marisa B] Meiling Defeated"},
-	[91225] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Easy][Marisa B] Koakuma Defeated"},
-	[91226] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Easy][Marisa B] Patchouli Defeated"},
-	[91228] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Easy][Marisa B] Sakuya - MidBoss 1"},
-	[91229] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Easy][Marisa B] Sakuya Defeated"},
-
-	[91234] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Normal][Reimu] Rumia - MidBoss"},
-	[91235] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Normal][Reimu] Rumia Defeated"},
-	[91237] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Normal][Reimu] Daiyousei Defeated"},
-	[91238] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Normal][Reimu] Cirno Defeated"},
-	[91240] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Normal][Reimu] Meiling - MidBoss"},
-	[91241] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Normal][Reimu] Meiling Defeated"},
-	[91243] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Normal][Reimu] Koakuma Defeated"},
-	[91244] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Normal][Reimu] Patchouli Defeated"},
-	[91246] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Normal][Reimu] Sakuya - MidBoss 1"},
-	[91247] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Normal][Reimu] Sakuya Defeated"},
-	[91249] = {"@noShotHasDifficulty/[Reimu] Stage 6/[Normal][Reimu] Sakuya - MidBoss 2"},
-	[91250] = {"@noShotHasDifficulty/[Reimu] Stage 6/[Normal][Reimu] Remilia Defeated"},
-
-	[91252] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Normal][Marisa] Rumia - MidBoss"},
-	[91253] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Normal][Marisa] Rumia Defeated"},
-	[91255] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Normal][Marisa] Daiyousei Defeated"},
-	[91256] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Normal][Marisa] Cirno Defeated"},
-	[91258] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Normal][Marisa] Meiling - MidBoss"},
-	[91259] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Normal][Marisa] Meiling Defeated"},
-	[91261] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Normal][Marisa] Koakuma Defeated"},
-	[91262] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Normal][Marisa] Patchouli Defeated"},
-	[91264] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Normal][Marisa] Sakuya - MidBoss 1"},
-	[91265] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Normal][Marisa] Sakuya Defeated"},
-	[91267] = {"@noShotHasDifficulty/[Marisa] Stage 6/[Normal][Marisa] Sakuya - MidBoss 2"},
-	[91268] = {"@noShotHasDifficulty/[Marisa] Stage 6/[Normal][Marisa] Remilia Defeated"},
-
-	[91270] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Normal][Reimu A] Rumia - MidBoss"},
-	[91271] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Normal][Reimu A] Rumia Defeated"},
-	[91273] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Normal][Reimu A] Daiyousei Defeated"},
-	[91274] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Normal][Reimu A] Cirno Defeated"},
-	[91276] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Normal][Reimu A] Meiling - MidBoss"},
-	[91277] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Normal][Reimu A] Meiling Defeated"},
-	[91279] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Normal][Reimu A] Koakuma Defeated"},
-	[91280] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Normal][Reimu A] Patchouli Defeated"},
-	[91282] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Normal][Reimu A] Sakuya - MidBoss 1"},
-	[91283] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Normal][Reimu A] Sakuya Defeated"},
-	[91285] = {"@hasShotHasDifficulty/[Reimu A] Stage 6/[Normal][Reimu A] Sakuya - MidBoss 2"},
-	[91286] = {"@hasShotHasDifficulty/[Reimu A] Stage 6/[Normal][Reimu A] Remilia Defeated"},
-
-	[91288] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Normal][Reimu B] Rumia - MidBoss"},
-	[91289] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Normal][Reimu B] Rumia Defeated"},
-	[91291] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Normal][Reimu B] Daiyousei Defeated"},
-	[91292] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Normal][Reimu B] Cirno Defeated"},
-	[91294] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Normal][Reimu B] Meiling - MidBoss"},
-	[91295] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Normal][Reimu B] Meiling Defeated"},
-	[91297] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Normal][Reimu B] Koakuma Defeated"},
-	[91298] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Normal][Reimu B] Patchouli Defeated"},
-	[91300] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Normal][Reimu B] Sakuya - MidBoss 1"},
-	[91301] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Normal][Reimu B] Sakuya Defeated"},
-	[91303] = {"@hasShotHasDifficulty/[Reimu B] Stage 6/[Normal][Reimu B] Sakuya - MidBoss 2"},
-	[91304] = {"@hasShotHasDifficulty/[Reimu B] Stage 6/[Normal][Reimu B] Remilia Defeated"},
-
-	[91306] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Normal][Marisa A] Rumia - MidBoss"},
-	[91307] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Normal][Marisa A] Rumia Defeated"},
-	[91309] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Normal][Marisa A] Daiyousei Defeated"},
-	[91310] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Normal][Marisa A] Cirno Defeated"},
-	[91312] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Normal][Marisa A] Meiling - MidBoss"},
-	[91313] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Normal][Marisa A] Meiling Defeated"},
-	[91315] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Normal][Marisa A] Koakuma Defeated"},
-	[91316] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Normal][Marisa A] Patchouli Defeated"},
-	[91318] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Normal][Marisa A] Sakuya - MidBoss 1"},
-	[91319] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Normal][Marisa A] Sakuya Defeated"},
-	[91321] = {"@hasShotHasDifficulty/[Marisa A] Stage 6/[Normal][Marisa A] Sakuya - MidBoss 2"},
-	[91322] = {"@hasShotHasDifficulty/[Marisa A] Stage 6/[Normal][Marisa A] Remilia Defeated"},
-
-	[91324] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Normal][Marisa B] Rumia - MidBoss"},
-	[91325] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Normal][Marisa B] Rumia Defeated"},
-	[91327] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Normal][Marisa B] Daiyousei Defeated"},
-	[91328] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Normal][Marisa B] Cirno Defeated"},
-	[91330] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Normal][Marisa B] Meiling - MidBoss"},
-	[91331] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Normal][Marisa B] Meiling Defeated"},
-	[91333] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Normal][Marisa B] Koakuma Defeated"},
-	[91334] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Normal][Marisa B] Patchouli Defeated"},
-	[91336] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Normal][Marisa B] Sakuya - MidBoss 1"},
-	[91337] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Normal][Marisa B] Sakuya Defeated"},
-	[91339] = {"@hasShotHasDifficulty/[Marisa B] Stage 6/[Normal][Marisa B] Sakuya - MidBoss 2"},
-	[91340] = {"@hasShotHasDifficulty/[Marisa B] Stage 6/[Normal][Marisa B] Remilia Defeated"},
-
-	[91342] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Hard][Reimu] Rumia - MidBoss"},
-	[91343] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Hard][Reimu] Rumia Defeated"},
-	[91345] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Hard][Reimu] Daiyousei Defeated"},
-	[91346] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Hard][Reimu] Cirno Defeated"},
-	[91348] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Hard][Reimu] Meiling - MidBoss"},
-	[91349] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Hard][Reimu] Meiling Defeated"},
-	[91351] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Hard][Reimu] Koakuma Defeated"},
-	[91352] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Hard][Reimu] Patchouli Defeated"},
-	[91354] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Hard][Reimu] Sakuya - MidBoss 1"},
-	[91355] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Hard][Reimu] Sakuya Defeated"},
-	[91357] = {"@noShotHasDifficulty/[Reimu] Stage 6/[Hard][Reimu] Sakuya - MidBoss 2"},
-	[91358] = {"@noShotHasDifficulty/[Reimu] Stage 6/[Hard][Reimu] Remilia Defeated"},
-
-	[91360] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Hard][Marisa] Rumia - MidBoss"},
-	[91361] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Hard][Marisa] Rumia Defeated"},
-	[91363] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Hard][Marisa] Daiyousei Defeated"},
-	[91364] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Hard][Marisa] Cirno Defeated"},
-	[91366] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Hard][Marisa] Meiling - MidBoss"},
-	[91367] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Hard][Marisa] Meiling Defeated"},
-	[91369] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Hard][Marisa] Koakuma Defeated"},
-	[91370] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Hard][Marisa] Patchouli Defeated"},
-	[91372] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Hard][Marisa] Sakuya - MidBoss 1"},
-	[91373] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Hard][Marisa] Sakuya Defeated"},
-	[91375] = {"@noShotHasDifficulty/[Marisa] Stage 6/[Hard][Marisa] Sakuya - MidBoss 2"},
-	[91376] = {"@noShotHasDifficulty/[Marisa] Stage 6/[Hard][Marisa] Remilia Defeated"},
-
-	[91378] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Hard][Reimu A] Rumia - MidBoss"},
-	[91379] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Hard][Reimu A] Rumia Defeated"},
-	[91381] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Hard][Reimu A] Daiyousei Defeated"},
-	[91382] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Hard][Reimu A] Cirno Defeated"},
-	[91384] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Hard][Reimu A] Meiling - MidBoss"},
-	[91385] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Hard][Reimu A] Meiling Defeated"},
-	[91387] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Hard][Reimu A] Koakuma Defeated"},
-	[91388] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Hard][Reimu A] Patchouli Defeated"},
-	[91390] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Hard][Reimu A] Sakuya - MidBoss 1"},
-	[91391] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Hard][Reimu A] Sakuya Defeated"},
-	[91393] = {"@hasShotHasDifficulty/[Reimu A] Stage 6/[Hard][Reimu A] Sakuya - MidBoss 2"},
-	[91394] = {"@hasShotHasDifficulty/[Reimu A] Stage 6/[Hard][Reimu A] Remilia Defeated"},
-
-	[91396] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Hard][Reimu B] Rumia - MidBoss"},
-	[91397] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Hard][Reimu B] Rumia Defeated"},
-	[91399] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Hard][Reimu B] Daiyousei Defeated"},
-	[91400] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Hard][Reimu B] Cirno Defeated"},
-	[91402] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Hard][Reimu B] Meiling - MidBoss"},
-	[91403] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Hard][Reimu B] Meiling Defeated"},
-	[91405] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Hard][Reimu B] Koakuma Defeated"},
-	[91406] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Hard][Reimu B] Patchouli Defeated"},
-	[91408] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Hard][Reimu B] Sakuya - MidBoss 1"},
-	[91409] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Hard][Reimu B] Sakuya Defeated"},
-	[91411] = {"@hasShotHasDifficulty/[Reimu B] Stage 6/[Hard][Reimu B] Sakuya - MidBoss 2"},
-	[91412] = {"@hasShotHasDifficulty/[Reimu B] Stage 6/[Hard][Reimu B] Remilia Defeated"},
-
-	[91414] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Hard][Marisa A] Rumia - MidBoss"},
-	[91415] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Hard][Marisa A] Rumia Defeated"},
-	[91417] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Hard][Marisa A] Daiyousei Defeated"},
-	[91418] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Hard][Marisa A] Cirno Defeated"},
-	[91420] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Hard][Marisa A] Meiling - MidBoss"},
-	[91421] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Hard][Marisa A] Meiling Defeated"},
-	[91423] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Hard][Marisa A] Koakuma Defeated"},
-	[91424] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Hard][Marisa A] Patchouli Defeated"},
-	[91426] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Hard][Marisa A] Sakuya - MidBoss 1"},
-	[91427] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Hard][Marisa A] Sakuya Defeated"},
-	[91429] = {"@hasShotHasDifficulty/[Marisa A] Stage 6/[Hard][Marisa A] Sakuya - MidBoss 2"},
-	[91430] = {"@hasShotHasDifficulty/[Marisa A] Stage 6/[Hard][Marisa A] Remilia Defeated"},
-
-	[91432] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Hard][Marisa B] Rumia - MidBoss"},
-	[91433] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Hard][Marisa B] Rumia Defeated"},
-	[91435] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Hard][Marisa B] Daiyousei Defeated"},
-	[91436] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Hard][Marisa B] Cirno Defeated"},
-	[91438] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Hard][Marisa B] Meiling - MidBoss"},
-	[91439] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Hard][Marisa B] Meiling Defeated"},
-	[91441] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Hard][Marisa B] Koakuma Defeated"},
-	[91442] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Hard][Marisa B] Patchouli Defeated"},
-	[91444] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Hard][Marisa B] Sakuya - MidBoss 1"},
-	[91445] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Hard][Marisa B] Sakuya Defeated"},
-	[91447] = {"@hasShotHasDifficulty/[Marisa B] Stage 6/[Hard][Marisa B] Sakuya - MidBoss 2"},
-	[91448] = {"@hasShotHasDifficulty/[Marisa B] Stage 6/[Hard][Marisa B] Remilia Defeated"},
-
-	[91450] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Lunatic][Reimu] Rumia - MidBoss"},
-	[91451] = {"@noShotHasDifficulty/[Reimu] Stage 1/[Lunatic][Reimu] Rumia Defeated"},
-	[91453] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Lunatic][Reimu] Daiyousei Defeated"},
-	[91454] = {"@noShotHasDifficulty/[Reimu] Stage 2/[Lunatic][Reimu] Cirno Defeated"},
-	[91456] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Lunatic][Reimu] Meiling - MidBoss"},
-	[91457] = {"@noShotHasDifficulty/[Reimu] Stage 3/[Lunatic][Reimu] Meiling Defeated"},
-	[91459] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Lunatic][Reimu] Koakuma Defeated"},
-	[91460] = {"@noShotHasDifficulty/[Reimu] Stage 4/[Lunatic][Reimu] Patchouli Defeated"},
-	[91462] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Lunatic][Reimu] Sakuya - MidBoss 1"},
-	[91463] = {"@noShotHasDifficulty/[Reimu] Stage 5/[Lunatic][Reimu] Sakuya Defeated"},
-	[91465] = {"@noShotHasDifficulty/[Reimu] Stage 6/[Lunatic][Reimu] Sakuya - MidBoss 2"},
-	[91466] = {"@noShotHasDifficulty/[Reimu] Stage 6/[Lunatic][Reimu] Remilia Defeated"},
-
-	[91468] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Lunatic][Marisa] Rumia - MidBoss"},
-	[91469] = {"@noShotHasDifficulty/[Marisa] Stage 1/[Lunatic][Marisa] Rumia Defeated"},
-	[91471] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Lunatic][Marisa] Daiyousei Defeated"},
-	[91472] = {"@noShotHasDifficulty/[Marisa] Stage 2/[Lunatic][Marisa] Cirno Defeated"},
-	[91474] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Lunatic][Marisa] Meiling - MidBoss"},
-	[91475] = {"@noShotHasDifficulty/[Marisa] Stage 3/[Lunatic][Marisa] Meiling Defeated"},
-	[91477] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Lunatic][Marisa] Koakuma Defeated"},
-	[91478] = {"@noShotHasDifficulty/[Marisa] Stage 4/[Lunatic][Marisa] Patchouli Defeated"},
-	[91480] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Lunatic][Marisa] Sakuya - MidBoss 1"},
-	[91481] = {"@noShotHasDifficulty/[Marisa] Stage 5/[Lunatic][Marisa] Sakuya Defeated"},
-	[91483] = {"@noShotHasDifficulty/[Marisa] Stage 6/[Lunatic][Marisa] Sakuya - MidBoss 2"},
-	[91484] = {"@noShotHasDifficulty/[Marisa] Stage 6/[Lunatic][Marisa] Remilia Defeated"},
-
-	[91486] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Lunatic][Reimu A] Rumia - MidBoss"},
-	[91487] = {"@hasShotHasDifficulty/[Reimu A] Stage 1/[Lunatic][Reimu A] Rumia Defeated"},
-	[91489] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Lunatic][Reimu A] Daiyousei Defeated"},
-	[91490] = {"@hasShotHasDifficulty/[Reimu A] Stage 2/[Lunatic][Reimu A] Cirno Defeated"},
-	[91492] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Lunatic][Reimu A] Meiling - MidBoss"},
-	[91493] = {"@hasShotHasDifficulty/[Reimu A] Stage 3/[Lunatic][Reimu A] Meiling Defeated"},
-	[91495] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Lunatic][Reimu A] Koakuma Defeated"},
-	[91496] = {"@hasShotHasDifficulty/[Reimu A] Stage 4/[Lunatic][Reimu A] Patchouli Defeated"},
-	[91498] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Lunatic][Reimu A] Sakuya - MidBoss 1"},
-	[91499] = {"@hasShotHasDifficulty/[Reimu A] Stage 5/[Lunatic][Reimu A] Sakuya Defeated"},
-	[91501] = {"@hasShotHasDifficulty/[Reimu A] Stage 6/[Lunatic][Reimu A] Sakuya - MidBoss 2"},
-	[91502] = {"@hasShotHasDifficulty/[Reimu A] Stage 6/[Lunatic][Reimu A] Remilia Defeated"},
-
-	[91504] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Lunatic][Reimu B] Rumia - MidBoss"},
-	[91505] = {"@hasShotHasDifficulty/[Reimu B] Stage 1/[Lunatic][Reimu B] Rumia Defeated"},
-	[91507] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Lunatic][Reimu B] Daiyousei Defeated"},
-	[91508] = {"@hasShotHasDifficulty/[Reimu B] Stage 2/[Lunatic][Reimu B] Cirno Defeated"},
-	[91510] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Lunatic][Reimu B] Meiling - MidBoss"},
-	[91511] = {"@hasShotHasDifficulty/[Reimu B] Stage 3/[Lunatic][Reimu B] Meiling Defeated"},
-	[91513] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Lunatic][Reimu B] Koakuma Defeated"},
-	[91514] = {"@hasShotHasDifficulty/[Reimu B] Stage 4/[Lunatic][Reimu B] Patchouli Defeated"},
-	[91516] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Lunatic][Reimu B] Sakuya - MidBoss 1"},
-	[91517] = {"@hasShotHasDifficulty/[Reimu B] Stage 5/[Lunatic][Reimu B] Sakuya Defeated"},
-	[91519] = {"@hasShotHasDifficulty/[Reimu B] Stage 6/[Lunatic][Reimu B] Sakuya - MidBoss 2"},
-	[91520] = {"@hasShotHasDifficulty/[Reimu B] Stage 6/[Lunatic][Reimu B] Remilia Defeated"},
-
-	[91522] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Lunatic][Marisa A] Rumia - MidBoss"},
-	[91523] = {"@hasShotHasDifficulty/[Marisa A] Stage 1/[Lunatic][Marisa A] Rumia Defeated"},
-	[91525] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Lunatic][Marisa A] Daiyousei Defeated"},
-	[91526] = {"@hasShotHasDifficulty/[Marisa A] Stage 2/[Lunatic][Marisa A] Cirno Defeated"},
-	[91528] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Lunatic][Marisa A] Meiling - MidBoss"},
-	[91529] = {"@hasShotHasDifficulty/[Marisa A] Stage 3/[Lunatic][Marisa A] Meiling Defeated"},
-	[91531] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Lunatic][Marisa A] Koakuma Defeated"},
-	[91532] = {"@hasShotHasDifficulty/[Marisa A] Stage 4/[Lunatic][Marisa A] Patchouli Defeated"},
-	[91534] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Lunatic][Marisa A] Sakuya - MidBoss 1"},
-	[91535] = {"@hasShotHasDifficulty/[Marisa A] Stage 5/[Lunatic][Marisa A] Sakuya Defeated"},
-	[91537] = {"@hasShotHasDifficulty/[Marisa A] Stage 6/[Lunatic][Marisa A] Sakuya - MidBoss 2"},
-	[91538] = {"@hasShotHasDifficulty/[Marisa A] Stage 6/[Lunatic][Marisa A] Remilia Defeated"},
-
-	[91540] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Lunatic][Marisa B] Rumia - MidBoss"},
-	[91541] = {"@hasShotHasDifficulty/[Marisa B] Stage 1/[Lunatic][Marisa B] Rumia Defeated"},
-	[91543] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Lunatic][Marisa B] Daiyousei Defeated"},
-	[91544] = {"@hasShotHasDifficulty/[Marisa B] Stage 2/[Lunatic][Marisa B] Cirno Defeated"},
-	[91546] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Lunatic][Marisa B] Meiling - MidBoss"},
-	[91547] = {"@hasShotHasDifficulty/[Marisa B] Stage 3/[Lunatic][Marisa B] Meiling Defeated"},
-	[91549] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Lunatic][Marisa B] Koakuma Defeated"},
-	[91550] = {"@hasShotHasDifficulty/[Marisa B] Stage 4/[Lunatic][Marisa B] Patchouli Defeated"},
-	[91552] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Lunatic][Marisa B] Sakuya - MidBoss 1"},
-	[91553] = {"@hasShotHasDifficulty/[Marisa B] Stage 5/[Lunatic][Marisa B] Sakuya Defeated"},
-	[91555] = {"@hasShotHasDifficulty/[Marisa B] Stage 6/[Lunatic][Marisa B] Sakuya - MidBoss 2"},
-	[91556] = {"@hasShotHasDifficulty/[Marisa B] Stage 6/[Lunatic][Marisa B] Remilia Defeated"}
+-- Variables
+local STARTING_ID = 60000
+local SHOT_TYPE_LIST = {"Reimu A", "Reimu B", "Marisa A", "Marisa B"}
+local ALL_CHARACTERS_LIST = {"Reimu", "Marisa", "Reimu A", "Reimu B", "Marisa A", "Marisa B"}
+local STAGES_LIST = {
+	{"Rumia - MidBoss", "Rumia Defeated"},
+	{"Daiyousei Defeated", "Cirno Defeated"},
+	{"Meiling - MidBoss", "Meiling Defeated"},
+	{"Koakuma Defeated", "Patchouli Defeated"},
+	{"Sakuya - MidBoss 1", "Sakuya Defeated"},
+	{"Sakuya - MidBoss 2", "Remilia Defeated"},
+	{"Patchouli - MidBoss", "Flandre Defeated"}
 }
+local DIFFICULTY_LIST = {"Easy", "Normal", "Hard", "Lunatic"}
+
+local locations_data = {}
+local location_id_offset = 0
+
+LOCATION_MAPPING = {}
+
+for _, character in ipairs(ALL_CHARACTERS_LIST) do
+	local level = 0
+	for _, stage in ipairs(STAGES_LIST) do
+		level = level + 1
+		local stage_name = tostring(level)
+		local is_extra = (level == 7)
+
+		if is_extra then
+			stage_name = "Extra"
+		end
+
+		for _, check in ipairs(stage) do
+			local id = STARTING_ID + location_id_offset
+
+			locations_data[id] = {
+				character = character,
+				stage = stage_name,
+				check = check,
+				has_difficulty = false,
+				is_stage_clear = false,
+				is_extra = is_extra
+			}
+
+			location_id_offset = location_id_offset + 1
+		end
+
+		-- Stage clear entry
+		local id = STARTING_ID + location_id_offset
+		locations_data[id] = {
+			character = character,
+			stage = stage_name,
+			check = "Stage " .. stage_name .. " Clear",
+			has_difficulty = false,
+			is_stage_clear = true,
+			is_extra = is_extra
+		}
+
+		location_id_offset = location_id_offset + 1
+	end
+end
+
+-- Generate locations with difficulty
+for _, difficulty in ipairs(DIFFICULTY_LIST) do
+	for _, character in ipairs(ALL_CHARACTERS_LIST) do
+		local level = 0
+		for _, stage in ipairs(STAGES_LIST) do
+			level = level + 1
+			-- Skip conditions
+			if not (level > 6 or (level > 5 and difficulty == "Easy")) then
+				for _, check in ipairs(stage) do
+					local id = STARTING_ID + location_id_offset
+
+					locations_data[id] = {
+						character = character,
+						stage = level,
+						check = check,
+						has_difficulty = true,
+						difficulty = difficulty,
+						is_stage_clear = false,
+						is_extra = (level == 7)
+					}
+
+					location_id_offset = location_id_offset + 1
+				end
+			end
+		end
+	end
+end
+
+for id, data in pairs(locations_data) do
+	local has_shot = false
+	local character = data.character
+	local has_difficulty = data.has_difficulty
+	local is_stage_clear = data.is_stage_clear
+	local is_extra = data.is_extra
+
+	-- Check if the character is in SHOT_TYPE_LIST
+	for _, shot_type in ipairs(SHOT_TYPE_LIST) do
+		if character == shot_type then
+			has_shot = true
+			break
+		end
+	end
+
+	-- Determine prefixes based on has_shot
+	local prefix_no_difficulty
+	local prefix_has_difficulty
+
+	if has_shot then
+		prefix_no_difficulty = "@hasShotNoDifficulty"
+		prefix_has_difficulty = "@hasShotHasDifficulty"
+	else
+		prefix_no_difficulty = "@noShotNoDifficulty"
+		prefix_has_difficulty = "@noShotHasDifficulty"
+	end
+
+	-- Generate the path string
+	local pathStr
+	if has_difficulty then
+		pathStr = string.format("/[%s] Stage %s/[%s][%s] %s",
+			character, data.stage,
+			data.difficulty, character, data.check)
+
+		-- Add to the LOCATION_MAPPING table
+		LOCATION_MAPPING[id] = {prefix_has_difficulty .. pathStr}
+	else
+		pathStr = string.format("/[%s] Stage %s/[%s] %s",
+			character, data.stage, character, data.check)
+
+		-- For Stage Clear locations or Extra Stage locations, include both difficulty and non-difficulty prefixes
+		if is_stage_clear or is_extra then
+			LOCATION_MAPPING[id] = {
+				prefix_no_difficulty .. pathStr,
+				prefix_has_difficulty .. pathStr
+			}
+		else
+			-- Normal locations without difficulty
+			LOCATION_MAPPING[id] = {prefix_no_difficulty .. pathStr}
+		end
+	end
+end

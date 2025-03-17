@@ -1,46 +1,181 @@
 [
     {
-        "name": "Stages",
+        "name": "[Reimu A] Stages",
         "type": "progressive",
-        "codes": "stage_unlocked",
+        "codes": "reimu_a_stage_unlocked",
         "allow_disabled": false,
         "initial_stage_idx": 0,
         "stages": [
                 {
                     "img": "/images/items/Numbers/1.png",
-                    "codes": "stage_1",
+                    "codes": "reimu_a_stage_1",
                     "inherit_codes": false,
-                    "name": "1 Stage"
+                    "name": "[Reimu A] 1 Stage"
                 },
                 {
                     "img": "/images/items/Numbers/2.png",
-                    "codes": "stage_2",
+                    "codes": "reimu_a_stage_2",
                     "inherit_codes": true,
-                    "name": "2 Stages"
+                    "name": "[Reimu A] 2 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/3.png",
-                    "codes": "stage_3",
+                    "codes": "reimu_a_stage_3",
                     "inherit_codes": true,
-                    "name": "3 Stages"
+                    "name": "[Reimu A] 3 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/4.png",
-                    "codes": "stage_4",
+                    "codes": "reimu_a_stage_4",
                     "inherit_codes": true,
-                    "name": "4 Stages"
+                    "name": "[Reimu A] 4 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/5.png",
-                    "codes": "stage_5",
+                    "codes": "reimu_a_stage_5",
                     "inherit_codes": true,
-                    "name": "5 Stages"
+                    "name": "[Reimu A] 5 Stages"
                 },
                 {
                     "img": "/images/items/Numbers/6.png",
-                    "codes": "stage_6",
+                    "codes": "reimu_a_stage_6",
                     "inherit_codes": true,
-                    "name": "6 Stages"
+                    "name": "[Reimu A] 6 Stages"
+                }
+        ]
+    },
+    {
+        "name": "[Reimu B] Stages",
+        "type": "progressive",
+        "codes": "reimu_b_stage_unlocked",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Numbers/1.png",
+                    "codes": "reimu_b_stage_1",
+                    "inherit_codes": false,
+                    "name": "[Reimu B] 1 Stage"
+                },
+                {
+                    "img": "/images/items/Numbers/2.png",
+                    "codes": "reimu_b_stage_2",
+                    "inherit_codes": true,
+                    "name": "[Reimu B] 2 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/3.png",
+                    "codes": "reimu_b_stage_3",
+                    "inherit_codes": true,
+                    "name": "[Reimu B] 3 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/4.png",
+                    "codes": "reimu_b_stage_4",
+                    "inherit_codes": true,
+                    "name": "[Reimu B] 4 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/5.png",
+                    "codes": "reimu_b_stage_5",
+                    "inherit_codes": true,
+                    "name": "[Reimu B] 5 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/6.png",
+                    "codes": "reimu_b_stage_6",
+                    "inherit_codes": true,
+                    "name": "[Reimu B] 6 Stages"
+                }
+        ]
+    },
+    {
+        "name": "[Marisa A] Stages",
+        "type": "progressive",
+        "codes": "marisa_a_stage_unlocked",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Numbers/1.png",
+                    "codes": "marisa_a_stage_1",
+                    "inherit_codes": false,
+                    "name": "[Marisa A] 1 Stage"
+                },
+                {
+                    "img": "/images/items/Numbers/2.png",
+                    "codes": "marisa_a_stage_2",
+                    "inherit_codes": true,
+                    "name": "[Marisa A] 2 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/3.png",
+                    "codes": "marisa_a_stage_3",
+                    "inherit_codes": true,
+                    "name": "[Marisa A] 3 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/4.png",
+                    "codes": "marisa_a_stage_4",
+                    "inherit_codes": true,
+                    "name": "[Marisa A] 4 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/5.png",
+                    "codes": "marisa_a_stage_5",
+                    "inherit_codes": true,
+                    "name": "[Marisa A] 5 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/6.png",
+                    "codes": "marisa_a_stage_6",
+                    "inherit_codes": true,
+                    "name": "[Marisa A] 6 Stages"
+                }
+        ]
+    },
+    {
+        "name": "[Marisa B] Stages",
+        "type": "progressive",
+        "codes": "marisa_b_stage_unlocked",
+        "allow_disabled": false,
+        "initial_stage_idx": 0,
+        "stages": [
+                {
+                    "img": "/images/items/Numbers/1.png",
+                    "codes": "marisa_b_stage_1",
+                    "inherit_codes": false,
+                    "name": "[Marisa B] 1 Stage"
+                },
+                {
+                    "img": "/images/items/Numbers/2.png",
+                    "codes": "marisa_b_stage_2",
+                    "inherit_codes": true,
+                    "name": "[Marisa B] 2 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/3.png",
+                    "codes": "marisa_b_stage_3",
+                    "inherit_codes": true,
+                    "name": "[Marisa B] 3 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/4.png",
+                    "codes": "marisa_b_stage_4",
+                    "inherit_codes": true,
+                    "name": "[Marisa B] 4 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/5.png",
+                    "codes": "marisa_b_stage_5",
+                    "inherit_codes": true,
+                    "name": "[Marisa B] 5 Stages"
+                },
+                {
+                    "img": "/images/items/Numbers/6.png",
+                    "codes": "marisa_b_stage_6",
+                    "inherit_codes": true,
+                    "name": "[Marisa B] 6 Stages"
                 }
         ]
     },
@@ -78,10 +213,28 @@
         ]
     },
     {
-        "name": "Extra Stage",
+        "name": "[Reimu A] Extra Stage",
         "type": "toggle",
         "img": "/images/items/Difficulties/extra.png",
-        "codes": "extra_stage"
+        "codes": "reimu_a_extra_stage"
+    },
+    {
+        "name": "[Reimu B] Extra Stage",
+        "type": "toggle",
+        "img": "/images/items/Difficulties/extra.png",
+        "codes": "reimu_b_extra_stage"
+    },
+    {
+        "name": "[Marisa A] Extra Stage",
+        "type": "toggle",
+        "img": "/images/items/Difficulties/extra.png",
+        "codes": "marisa_a_extra_stage"
+    },
+    {
+        "name": "[Marisa B] Extra Stage",
+        "type": "toggle",
+        "img": "/images/items/Difficulties/extra.png",
+        "codes": "marisa_b_extra_stage"
     },
     {
         "name": "Lives",
@@ -108,31 +261,30 @@
         "codes": "power_points"
     },
     {
-        "name": "Reimu - Type A",
+        "name": "Reimu A",
         "type": "toggle",
         "img": "/images/items/reimu_a.png",
         "codes": "reimu_a"
     },
     {
-        "name": "Reimu - Type B",
+        "name": "Reimu B",
         "type": "toggle",
         "img": "/images/items/reimu_b.png",
         "codes": "reimu_b"
     },
     {
-        "name": "Marisa - Type A",
+        "name": "Marisa A",
         "type": "toggle",
         "img": "/images/items/marisa_a.png",
         "codes": "marisa_a"
     },
     {
-        "name": "Marisa - Type B",
+        "name": "Marisa B",
         "type": "toggle",
         "img": "/images/items/marisa_b.png",
         "codes": "marisa_b"
     },
-    
-    
+
     {
         "name": "Shot type checks",
         "type": "toggle",

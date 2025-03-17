@@ -18,13 +18,9 @@
                         "item_h_alignment": "center",
                         "rows": [
                             [
-                                "stage_unlocked",
-                                "lower_difficulty",
-                                "extra_stage"
-                            ],
-                            [
                                 "lives",
                                 "bombs",
+                                "lower_difficulty",
                                 "power_points"
                             ],
                             [
@@ -32,6 +28,18 @@
                                 "reimu_b",
                                 "marisa_a",
                                 "marisa_b"
+                            ],
+                            [
+                                "reimu_a_stage_unlocked",
+                                "reimu_b_stage_unlocked",
+                                "marisa_a_stage_unlocked",
+                                "marisa_b_stage_unlocked"
+                            ],
+                            [
+                                "reimu_a_extra_stage",
+                                "reimu_b_extra_stage",
+                                "marisa_a_extra_stage",
+                                "marisa_b_extra_stage"
                             ]
                         ]
                     }
